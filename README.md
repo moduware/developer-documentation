@@ -21,3 +21,9 @@ Under this list, examples include firmware, module driver and tile code as well 
 * [SHT20 via I2C](https://github.com/nexpaq/example-i2c)
 * [HC-SR04 Ultrasonic Sensor](https://github.com/nexpaq/example-ultrasonic)
 
+* Hardware 
+Module PCB Layout, Schematics and 2D/3D housing templates
+    * [MSP430 PCB template](https://github.com/nexpaq/msp430-pcb-template)
+    * [Housing](https://drive.google.com/drive/folders/0B-RYMkGi4XZ8MWdpZDFydlpNLTA?usp=sharing) 2D/3D CAD projects for 1,2 and 3 module slot
+        * STEP and SWasm formats for 3D designs
+        * PDF for 2D Part drawings 
