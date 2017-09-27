@@ -7,8 +7,6 @@
 * Each module has at least a module inferface or tile 
 * Libraries and APIs are provided to communicate the physical world to the application and cloud 
 
-![PlatformDiagram]
-
 ## Data Flow
 
 * Modules send data to the gateway, an **mdk** for the firmware proess the data. 
