@@ -25,4 +25,4 @@
 ![PlatformDiagram]
 
 
-[PlatformDiagram]()
+[PlatformDiagram]:(https://github.com/nexpaq/developer-documentation/blob/master/images/PlatformDiagram.jpg)
