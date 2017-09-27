@@ -12,6 +12,8 @@
 ## Tiles 
 * [webview tile template](https://github.com/nexpaq/webview-tile-template)
 * [Install webview tile](https://github.com/nexpaq/webview-tile-template/blob/master/Install%20webview%20tile.md)
+* [Manifest generator](https://nexpaq.github.io/manifest-generator/)
+* [Module driver generator](https://nexpaq.github.io/module-driver-generator/)
 
 ## MSP430 Examples
 Under this list, examples include firmware, module driver and tile code as well as breadboard setup
