@@ -14,7 +14,7 @@
 * The application process the data with the **Module Driver**, and routes the data to the **tile**
 * The tile displays the data
 
-##Command Flow
+## Command Flow
 
 * Function is used in the tile, and a command from the application is called
 * The application recognizes the command via the Module Driver and sends the command to the gateway
@@ -23,4 +23,4 @@
 ![PlatformDiagram]
 
 
-[PlatformDiagram]:(https://github.com/nexpaq/developer-documentation/blob/master/images/PlatformDiagram.jpg)
+[PlatformDiagram]:https://github.com/nexpaq/developer-documentation/blob/master/images/PlatformDiagram.jpg
