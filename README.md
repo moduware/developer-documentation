@@ -29,3 +29,8 @@ Module PCB Layout, Schematics and 2D/3D housing templates
     * [Housing](https://drive.google.com/drive/folders/0B-RYMkGi4XZ8MWdpZDFydlpNLTA?usp=sharing) 2D/3D CAD projects for 1,2 and 3 module slot
         * STEP and SWasm formats for 3D designs
         * PDF for 2D Part drawings 
+    * [Connector Specifications](https://github.com/nexpaq/developer-documentation/blob/master/Connector%20Specifications.md)
+    
+    ## General information
+    
+    * [Platform communication](https://github.com/nexpaq/developer-documentation/blob/master/Platform%20communication.md)
