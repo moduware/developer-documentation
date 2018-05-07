@@ -7,8 +7,18 @@
     * High-Speed SPI 2.0 (up to 1 MBit/s) which can be slowed down for slower modules
     * High-speed USB 2.0, back forward compatible with USB 2.0 full speed and USB 1.1
 
-    ![connector-specs]
+    <!--![connector-specs]-->
     
+   Side A (Top)
+
+   | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+   | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+   | USB D+ | USB D- | USB Rx+ | USB Rx- | USB Tx+ | USB Tx- |  `BAT+` |
+   | `GND` | `3V3` | *CS* | *CLK* | *SIMO* | *SOMI* |  `5V` |
+   | **14** | **13** | **12** | **11** | **10** | **9** | **8** |
+
+   Side B (Bottom)
+
 
 ## PCB Layout specifications for the connector 
 * 5V BUS
