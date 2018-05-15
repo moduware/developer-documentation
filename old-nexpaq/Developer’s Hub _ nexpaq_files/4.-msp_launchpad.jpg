@@ -1,0 +1,393 @@
+<html lang="en-US" class="no-js body-background-color">
+	<head>
+
+		<meta charset="UTF-8">
+		<title>  Page not found : nexpaq</title>
+
+
+		<link href="//www.google-analytics.com" rel="dns-prefetch">
+        <link href="https://nexpaq.com/wp-content/themes/Nexpaq/img/icons/favicon.gif" rel="shortcut icon">
+        <link href="https://nexpaq.com/wp-content/themes/Nexpaq/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="The first modular smartphone case to enter the IoT">
+
+		<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/nexpaq.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='0-css'  href='https://nexpaq.com/wp-content/themes/Nexpaq/css/press-apps-docs.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='um_bbpress-css'  href='https://nexpaq.com/wp-content/plugins/um-bbpress/assets/css/um-bbpress.css?ver=4.8.4' media='all' />
+<link rel='stylesheet' id='bbp-default-css'  href='https://nexpaq.com/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.13-6410' media='screen' />
+<link rel='stylesheet' id='page-list-style-css'  href='https://nexpaq.com/wp-content/plugins/page-list/css/page-list.css?ver=5.1' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//nexpaq.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.1.2' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//nexpaq.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.1.2' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='//nexpaq.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.1.2' media='all' />
+<link rel='stylesheet' id='style-name-css'  href='https://nexpaq.com/wp-content/themes/Nexpaq/style.css?ver=4.8.4' media='all' />
+<link rel='stylesheet' id='user-auth-styles-css'  href='https://nexpaq.com/wp-content/themes/Nexpaq/css/user-auth.css?ver=4.8.4' media='all' />
+<link rel='stylesheet' id='um_minified-css'  href='https://nexpaq.com/wp-content/plugins/ultimate-member/assets/css/um.min.css?ver=1.3.88' media='all' />
+<script type='text/javascript' src='https://nexpaq.com/wp-content/themes/Nexpaq/js/lib/conditionizr-4.3.0.min.js?ver=4.3.0'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-content/themes/Nexpaq/js/lib/bootstrap.min.js?ver=3.3.6'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-content/themes/Nexpaq/js/scripts.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-content/themes/Nexpaq/js/lib/jquery-1.11.1.min.js?ver=4.8.4'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-content/themes/Nexpaq/js/site-wide-actions.js?ver=1.0.0'></script>
+<link rel='https://api.w.org/' href='https://nexpaq.com/wp-json/' />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	 
+		<script type="text/javascript">
+
+		var ultimatemember_image_upload_url = 'https://nexpaq.com/wp-content/plugins/ultimate-member/core/lib/upload/um-image-upload.php';
+		var ultimatemember_file_upload_url = 'https://nexpaq.com/wp-content/plugins/ultimate-member/core/lib/upload/um-file-upload.php';
+		var ultimatemember_ajax_url = 'https://nexpaq.com/wp-admin/admin-ajax.php';
+
+		</script>
+
+	
+		<style type="text/css">.request_name { display: none !important; }</style>
+
+			<script>
+        // conditionizr.com
+        // configure environment tests
+        conditionizr.config({
+            assets: 'https://nexpaq.com/wp-content/themes/Nexpaq',
+            tests: {}
+        });
+
+
+        $(document).scroll(function () {
+		    if ($(document).scrollTop() > 2) {
+		        $('.logo-img').addClass("hidden");
+		        $('.logo-img-mob').removeClass("hidden-lg");
+		    }
+
+		    else {
+			    $('.logo-img').removeClass("hidden");
+		        $('.logo-img-mob').addClass("hidden-lg");
+		    }
+		});
+
+
+		$(function() {
+		  $(document).on("click", function(e) {
+		    if ($(e.target).is(".dropdown-menu-toggle") === false) {
+		      $(".dropdown-menu-toggle").removeClass("dropdown-menu-toggle");
+		    }
+		  });
+		});
+        </script>
+				<script>
+				!function(n){"use strict";function t(n,t){var r=(65535&n)+(65535&t),e=(n>>16)+(t>>16)+(r>>16);return e<<16|65535&r}function r(n,t){return n<<t|n>>>32-t}function e(n,e,o,u,c,f){return t(r(t(t(e,n),t(u,f)),c),o)}function o(n,t,r,o,u,c,f){return e(t&r|~t&o,n,t,u,c,f)}function u(n,t,r,o,u,c,f){return e(t&o|r&~o,n,t,u,c,f)}function c(n,t,r,o,u,c,f){return e(t^r^o,n,t,u,c,f)}function f(n,t,r,o,u,c,f){return e(r^(t|~o),n,t,u,c,f)}function i(n,r){n[r>>5]|=128<<r%32,n[(r+64>>>9<<4)+14]=r;var e,i,a,h,d,l=1732584193,g=-271733879,v=-1732584194,m=271733878;for(e=0;e<n.length;e+=16)i=l,a=g,h=v,d=m,l=o(l,g,v,m,n[e],7,-680876936),m=o(m,l,g,v,n[e+1],12,-389564586),v=o(v,m,l,g,n[e+2],17,606105819),g=o(g,v,m,l,n[e+3],22,-1044525330),l=o(l,g,v,m,n[e+4],7,-176418897),m=o(m,l,g,v,n[e+5],12,1200080426),v=o(v,m,l,g,n[e+6],17,-1473231341),g=o(g,v,m,l,n[e+7],22,-45705983),l=o(l,g,v,m,n[e+8],7,1770035416),m=o(m,l,g,v,n[e+9],12,-1958414417),v=o(v,m,l,g,n[e+10],17,-42063),g=o(g,v,m,l,n[e+11],22,-1990404162),l=o(l,g,v,m,n[e+12],7,1804603682),m=o(m,l,g,v,n[e+13],12,-40341101),v=o(v,m,l,g,n[e+14],17,-1502002290),g=o(g,v,m,l,n[e+15],22,1236535329),l=u(l,g,v,m,n[e+1],5,-165796510),m=u(m,l,g,v,n[e+6],9,-1069501632),v=u(v,m,l,g,n[e+11],14,643717713),g=u(g,v,m,l,n[e],20,-373897302),l=u(l,g,v,m,n[e+5],5,-701558691),m=u(m,l,g,v,n[e+10],9,38016083),v=u(v,m,l,g,n[e+15],14,-660478335),g=u(g,v,m,l,n[e+4],20,-405537848),l=u(l,g,v,m,n[e+9],5,568446438),m=u(m,l,g,v,n[e+14],9,-1019803690),v=u(v,m,l,g,n[e+3],14,-187363961),g=u(g,v,m,l,n[e+8],20,1163531501),l=u(l,g,v,m,n[e+13],5,-1444681467),m=u(m,l,g,v,n[e+2],9,-51403784),v=u(v,m,l,g,n[e+7],14,1735328473),g=u(g,v,m,l,n[e+12],20,-1926607734),l=c(l,g,v,m,n[e+5],4,-378558),m=c(m,l,g,v,n[e+8],11,-2022574463),v=c(v,m,l,g,n[e+11],16,1839030562),g=c(g,v,m,l,n[e+14],23,-35309556),l=c(l,g,v,m,n[e+1],4,-1530992060),m=c(m,l,g,v,n[e+4],11,1272893353),v=c(v,m,l,g,n[e+7],16,-155497632),g=c(g,v,m,l,n[e+10],23,-1094730640),l=c(l,g,v,m,n[e+13],4,681279174),m=c(m,l,g,v,n[e],11,-358537222),v=c(v,m,l,g,n[e+3],16,-722521979),g=c(g,v,m,l,n[e+6],23,76029189),l=c(l,g,v,m,n[e+9],4,-640364487),m=c(m,l,g,v,n[e+12],11,-421815835),v=c(v,m,l,g,n[e+15],16,530742520),g=c(g,v,m,l,n[e+2],23,-995338651),l=f(l,g,v,m,n[e],6,-198630844),m=f(m,l,g,v,n[e+7],10,1126891415),v=f(v,m,l,g,n[e+14],15,-1416354905),g=f(g,v,m,l,n[e+5],21,-57434055),l=f(l,g,v,m,n[e+12],6,1700485571),m=f(m,l,g,v,n[e+3],10,-1894986606),v=f(v,m,l,g,n[e+10],15,-1051523),g=f(g,v,m,l,n[e+1],21,-2054922799),l=f(l,g,v,m,n[e+8],6,1873313359),m=f(m,l,g,v,n[e+15],10,-30611744),v=f(v,m,l,g,n[e+6],15,-1560198380),g=f(g,v,m,l,n[e+13],21,1309151649),l=f(l,g,v,m,n[e+4],6,-145523070),m=f(m,l,g,v,n[e+11],10,-1120210379),v=f(v,m,l,g,n[e+2],15,718787259),g=f(g,v,m,l,n[e+9],21,-343485551),l=t(l,i),g=t(g,a),v=t(v,h),m=t(m,d);return[l,g,v,m]}function a(n){var t,r="",e=32*n.length;for(t=0;t<e;t+=8)r+=String.fromCharCode(n[t>>5]>>>t%32&255);return r}function h(n){var t,r=[];for(r[(n.length>>2)-1]=void 0,t=0;t<r.length;t+=1)r[t]=0;var e=8*n.length;for(t=0;t<e;t+=8)r[t>>5]|=(255&n.charCodeAt(t/8))<<t%32;return r}function d(n){return a(i(h(n),8*n.length))}function l(n,t){var r,e,o=h(n),u=[],c=[];for(u[15]=c[15]=void 0,o.length>16&&(o=i(o,8*n.length)),r=0;r<16;r+=1)u[r]=909522486^o[r],c[r]=1549556828^o[r];return e=i(u.concat(h(t)),512+8*t.length),a(i(c.concat(e),640))}function g(n){var t,r,e="0123456789abcdef",o="";for(r=0;r<n.length;r+=1)t=n.charCodeAt(r),o+=e.charAt(t>>>4&15)+e.charAt(15&t);return o}function v(n){return unescape(encodeURIComponent(n))}function m(n){return d(v(n))}function p(n){return g(m(n))}function s(n,t){return l(v(n),v(t))}function C(n,t){return g(s(n,t))}function A(n,t,r){return t?r?s(t,n):C(t,n):r?m(n):p(n)}"function"==typeof define&&define.amd?define(function(){return A}):"object"==typeof module&&module.exports?module.exports=A:n.md5=A}(this);
+				!function(a){var b=!1;if("function"==typeof define&&define.amd&&(define(a),b=!0),"object"==typeof exports&&(module.exports=a(),b=!0),!b){var c=window.Cookies,d=window.Cookies=a();d.noConflict=function(){return window.Cookies=c,d}}}(function(){function a(){for(var a=0,b={};a<arguments.length;a++){var c=arguments[a];for(var d in c)b[d]=c[d]}return b}function b(c){function d(b,e,f){var g;if("undefined"!=typeof document){if(arguments.length>1){if(f=a({path:"/"},d.defaults,f),"number"==typeof f.expires){var h=new Date;h.setMilliseconds(h.getMilliseconds()+864e5*f.expires),f.expires=h}try{g=JSON.stringify(e),/^[\{\[]/.test(g)&&(e=g)}catch(a){}return e=c.write?c.write(e,b):encodeURIComponent(String(e)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),b=encodeURIComponent(String(b)),b=b.replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent),b=b.replace(/[\(\)]/g,escape),document.cookie=[b,"=",e,f.expires?"; expires="+f.expires.toUTCString():"",f.path?"; path="+f.path:"",f.domain?"; domain="+f.domain:"",f.secure?"; secure":""].join("")}b||(g={});for(var i=document.cookie?document.cookie.split("; "):[],j=/(%[0-9A-Z]{2})+/g,k=0;k<i.length;k++){var l=i[k].split("="),m=l.slice(1).join("=");'"'===m.charAt(0)&&(m=m.slice(1,-1));try{var n=l[0].replace(j,decodeURIComponent);if(m=c.read?c.read(m,n):c(m,n)||m.replace(j,decodeURIComponent),this.json)try{m=JSON.parse(m)}catch(a){}if(b===n){g=m;break}b||(g[n]=m)}catch(a){}}return g}}return d.set=d,d.get=function(a){return d.call(d,a)},d.getJSON=function(){return d.apply({json:!0},[].slice.call(arguments))},d.defaults={},d.remove=function(b,c){d(b,"",a(c,{expires:-1}))},d.withConverter=b,d}return b(function(){})});
+
+				var cookie_name = 'anonymous_id',
+				    anonymous_id = null;
+
+				if(typeof Cookies.get(cookie_name) == 'undefined') {
+				  var md5_value = md5(navigator.userAgent + new Date().getTime());
+				  Cookies.set(cookie_name, md5_value, { expires: 365 });
+				  anonymous_id = md5_value;
+				  console.log('Setting new Anonymous ID: ' + md5_value);
+				} else {
+				  anonymous_id = Cookies.get(cookie_name);
+				  console.log('Anonymous ID found! Value: ' + anonymous_id);
+				}
+				</script>
+				<!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init("3a9a01cdcb320d4b17d04a44d1e51b7a");</script><!-- end Mixpanel -->
+<script>
+if(typeof mixpanel != 'undefined') {
+	mixpanel.identify(anonymous_id);
+	mixpanel.people.set({
+    "last_visit": new Date()
+	});
+}
+</script>
+
+	</head>
+	<body class="error404 iconic-woothumbs-nexpaq-2016-theme">
+		<!-- wrapper -->
+		<div class="wrapper">
+
+			<!-- header -->
+
+			<header class="nexpaq-header main-header header clear" role="banner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-md-1">
+							<!-- logo -->
+							<div class="logo pull-left">
+								<a href="https://nexpaq.com">
+									<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+									<img src="https://nexpaq.com/wp-content/themes/Nexpaq/img/logo.svg" width="145" alt="Logo" class="logo-img hidden-md hidden-sm hidden-xs">
+									<img src="https://nexpaq.com/wp-content/themes/Nexpaq/img/logo-mob.svg" width="145" alt="Logo" class="logo-img-mob hidden-lg">
+								</a>
+							</div>
+							<!-- /logo -->
+						</div>
+
+						<div class="col-lg-7 col-md-8 col-xs-12">
+							 <div class="navbar navbar-default">
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				                    <span class="icon-bar"></span>
+				                    <span class="icon-bar"></span>
+				                    <span class="icon-bar"></span>
+				                </button>
+				            </div>
+							<!-- nav -->
+							<img class="cart" src="https://nexpaq.com/wp-content/themes/Nexpaq/img/icons/icon-cart.svg">
+				            <div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav pull-right">
+							<!--https://nexpaq.com/products/ : post : 48129--><!--https://nexpaq.com/upcoming-modules/ : post : 48129--><!--/shop : post : 48129--><!--/shop/phonepaq-iphone/ : post : 48129--><!--https://nexpaq.com/shop/batpaq/ : post : 48129--><!--/modules : post : 48129--><!--https://nexpaq.com/developers/ : post : 48129--><!--https://nexpaq.com/blog/ : post : 48129--><!--[blogurl]forum : post : 48129--><!--https://nexpaq.com/contact/ : post : 48129--><ul id="menu-primary-secondary" class="menu"><li id="menu-item-44285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44285"><a href="https://nexpaq.com/products/">Products</a></li>
+<li id="menu-item-48081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48081"><a href="https://nexpaq.com/upcoming-modules/">Modules</a></li>
+<li id="menu-item-44582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44582"><a href="/shop">Shop</a>
+<ul  class="sub-menu">
+	<li id="menu-item-44579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44579"><a href="/shop/phonepaq-iphone/">phonepaq</a></li>
+	<li id="menu-item-41591" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-41591"><a href="https://nexpaq.com/shop/batpaq/">batpaq</a></li>
+	<li id="menu-item-44578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44578"><a href="/modules">modules</a></li>
+</ul>
+</li>
+<li id="menu-item-44287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44287"><a href="https://nexpaq.com/developers/">Developers</a></li>
+<li id="menu-item-41521" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-41521"><a href="https://nexpaq.com/blog/">Blog</a></li>
+<li id="menu-item-41554" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41554"><a href="http://[blogurl]forum">Forum</a></li>
+<li id="menu-item-41522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41522"><a href="https://nexpaq.com/contact/">Contact</a></li>
+</ul>															<div class="login-box-mob">
+									<a class="btn btn-rounded" href="https://nexpaq.com/auth">Log in</a> <a class="btn btn-rounded-white" href="https://nexpaq.com/auth/account/register">Sign up</a>
+								</div>
+														    </ul>
+							</div><!--/.nav-collapse -->
+							</div><!--/.navbar -->
+						</div>
+						<div class="col-lg-3 col-md-3">
+							<div class="pull-right">
+								<div class="account-box pull-left">
+									<div class="dropdown basket-dropdown">
+										<div class="btn-link btn-small-cart" id="btn-small-cart dropdownMenu1" aria-haspopup="true" aria-expanded="true"><a href="https://nexpaq.com/cart"><img class="cart-image" src="https://nexpaq.com/wp-content/themes/Nexpaq/img/icons/icon-cart.svg" width="25"><span class="cart-count">0</span></a>
+										<ul class="dropdown-menu-toggle dropdown-menu" aria-labelledby="dropdownMenu1">
+											
+
+	
+<ul class="cart_list product_list_widget ">
+
+	
+		<li class="empty">No products in the cart.</li>
+
+	
+</ul><!-- end product list -->
+
+
+										</ul>
+										</div>
+									</div>
+								</div>
+																<div class="account-box pull-left">
+									<div class="login-box">
+										<a href="https://nexpaq.com/auth">Log in</a> | <a href="https://nexpaq.com/auth/account/register">Sign up</a>
+									</div>
+								</div>
+
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- /header -->
+			<div class="content-container">
+
+<script>
+	if ( $(window).width() > 739) {  
+$(document).ready(function() {
+var movementStrength = 25;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$(".planets").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -1 - 25;
+          var newvalueY = height * pageY * -1 - 50;
+          $('.planets').css("background-position", newvalueX+"px     "+newvalueY+"px");
+});
+});	
+
+$(document).ready(function() {
+var movementStrength = 25;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$(".stars").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -2 - 55;
+          var newvalueY = height * pageY * -2 - 70;
+          $('.stars').css("background-position", newvalueX+"px     "+newvalueY+"px");
+});
+});	
+
+$(document).ready(function() {
+var movementStrength = 25;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$(".stars").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -4 + 155;
+          var newvalueY = height * pageY * -4 + 110;
+           $('.astronaut').css("top", newvalueX+"px");
+           $('.astronaut').css("left", newvalueY+"px");
+});
+});	
+
+$(document).ready(function() {
+var movementStrength = 25;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$(".stars").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -7 + 185;
+          var newvalueY = height * pageY * -7 + 130;
+           $('.planet').css("top", newvalueX+"px");
+           $('.planet').css("left", newvalueY+"px");
+});
+});	
+};
+</script>
+<div class="page-not-found">
+	<div class="stars">
+		<div class="planets">
+			<div class="container">
+				<img class="astronaut" src="https://nexpaq.com/wp-content/themes/Nexpaq/img/astronaut.png">
+				<img class="planet" src="https://nexpaq.com/wp-content/themes/Nexpaq/img/planet.png">
+				<div class="col-sm-6">
+				</div>
+				<div class="col-sm-6 text-center">
+					<div class="text-container">
+						<h1>404</h1>
+						<h3>Oops! Seems you got lost</h3>
+						<a href="/" class="btn btn-primary btn-lg">Back to earth</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		</div>
+					<!-- footer -->
+			<footer class="nxp_footer" role="contentinfo">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 text-left">
+							<!-- copyright -->
+							<p class="copyright">
+								<nav class="footer-nav">
+									<!--https://nexpaq.com/privacy-policy/ : post : 48129--><!--https://nexpaq.com/terms-of-use/ : post : 48129--><!--https://nexpaq.com/partners/ : post : 48129--><ul id="menu-footer" class="menu"><li id="menu-item-41464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41464"><a href="https://nexpaq.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-41465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41465"><a href="https://nexpaq.com/terms-of-use/">Terms of use</a></li>
+<li id="menu-item-44038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44038"><a href="https://nexpaq.com/partners/">Our Partners</a></li>
+</ul>								</nav>
+							</p>
+							<!-- /copyright -->
+						</div>
+						<div class="col-sm-6">
+							<div class="social">
+								<a href="https://www.facebook.com/nexpaq" target="_blank"><i class="icon-facebook-official"></i></a>
+								<a href="https://nexpaq.com/wp-content/themes/Nexpaq/img/snapchat-qr.png" target="_blank"><i class="icon-snapchat-square"></i></a>
+								<a href="https://www.youtube.com/channel/UCegTvQ9f4hP59jBzvjPnEIQ" target="_blank"><i class="icon-youtube"></i></a>
+								<a href="https://www.instagram.com/nexpaq"><i class="icon-instagram" target="_blank"></i></a>
+								<a href="https://www.twitter.com/nexpaq"><i class="icon-twitter" target="_blank"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		
+
+
+		</div>
+		<!-- /wrapper -->
+
+		<div id="um_upload_single" style="display:none">
+	
+</div><div id="um_view_photo" style="display:none">
+
+	<a href="#" data-action="um_remove_modal" class="um-modal-close"><i class="um-faicon-times"></i></a>
+	
+	<div class="um-modal-body photo">
+	
+		<div class="um-modal-photo">
+
+		</div>
+
+	</div>
+	
+</div><script type='text/javascript' src='https://nexpaq.com/wp-content/themes/Nexpaq/js/lib/flexslider.js?ver=2.6.1'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.13-6410'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wp-content\/uploads\/2016\/03\/4.-msp_launchpad.jpg?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/nexpaq.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//nexpaq.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='//nexpaq.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='//nexpaq.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wp-content\/uploads\/2016\/03\/4.-msp_launchpad.jpg?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//nexpaq.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wp-content\/uploads\/2016\/03\/4.-msp_launchpad.jpg?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_ea9b31cb9c445e577083fa24784f7976"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//nexpaq.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var um_scripts = {"ajaxurl":"https:\/\/nexpaq.com\/wp-admin\/admin-ajax.php","fileupload":"https:\/\/nexpaq.com\/wp-content\/plugins\/ultimate-member\/core\/lib\/upload\/um-file-upload.php","imageupload":"https:\/\/nexpaq.com\/wp-content\/plugins\/ultimate-member\/core\/lib\/upload\/um-image-upload.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://nexpaq.com/wp-content/plugins/ultimate-member/assets/js/um.min.js?ver=1.3.88'></script>
+<script type='text/javascript' src='https://nexpaq.com/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+
+		<script type="text/javascript">jQuery( '#request' ).val( '' );</script>
+
+	
+		<!-- analytics -->
+		<script>
+		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
+		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
+		l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-62425770-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+		<script src="https://nexpaq.com/wp-content/themes/Nexpaq/vendor/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<link rel="stylesheet" href="https://nexpaq.com/wp-content/themes/Nexpaq/vendor/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
+1526343985.6713	</body>
+</html>

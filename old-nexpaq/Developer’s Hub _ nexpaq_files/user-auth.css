@@ -1,0 +1,6 @@
+.um-page-login h1,
+.um-page-password-reset h1,
+.um-page-account h1,
+.um-page-register h1 {
+  text-align: center;
+}

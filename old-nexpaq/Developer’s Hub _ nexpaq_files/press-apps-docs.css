@@ -1,0 +1,14 @@
+#pado-sidebar {
+  position: relative;
+  height: calc(100vh - 90px) !important;
+  overflow-y: scroll !important;
+  top: 90px !important;
+}
+#pado-sidebar.fixed {
+  position: fixed;
+  top: 90px !important;
+  padding-bottom: 50px;
+}
+#pado-content .wp-caption {
+  text-align: center;
+}
