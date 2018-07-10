@@ -1,0 +1,412 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>nexpaq.module.speaker Driver</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all.js"></script>
+  </head>
+
+  <body class="nexpaq" data-languages="[&quot;javascript&quot;]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="images/logo.png" class="logo" alt="Logo" />
+        <div class="lang-selector">
+              <a href="#" data-language-name="javascript">javascript</a>
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <div id="toc" class="toc-list-h1">
+          <li>
+            <a href="#driver-nexpaq-module-speaker" class="toc-h1 toc-link" data-title="driver-nexpaq-module-speaker">Driver: nexpaq.module.speaker</a>
+          </li>
+          <li>
+            <a href="#commands" class="toc-h1 toc-link" data-title="commands">Commands</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#checks-the-status-of-speaker-module" class="toc-h2 toc-link" data-title="checks-the-status-of-speaker-module">Checks the status of Speaker module</a>
+                  </li>
+                  <li>
+                    <a href="#connects-to-the-speaker-module" class="toc-h2 toc-link" data-title="connects-to-the-speaker-module">Connects to the Speaker module.</a>
+                  </li>
+                  <li>
+                    <a href="#disconnects-from-the-speaker-module" class="toc-h2 toc-link" data-title="disconnects-from-the-speaker-module">Disconnects from the Speaker module.</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#data" class="toc-h1 toc-link" data-title="data">Data</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#state-change-response" class="toc-h2 toc-link" data-title="state-change-response">State Change Response</a>
+                  </li>
+                  <li>
+                    <a href="#status-request-response" class="toc-h2 toc-link" data-title="status-request-response">Status Request Response</a>
+                  </li>
+              </ul>
+          </li>
+      </div>
+        <ul class="toc-footer">
+            <li><a href='https://moduware.github.io/developer-documentation/module-drivers/'>Drivers list</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='driver-nexpaq-module-speaker'>Driver: nexpaq.module.speaker</h1>
+<p><strong>Type</strong>: nexpaq.module.speaker</p>
+
+<p><strong>Version</strong>: 1.0.0</p>
+<h1 id='commands'>Commands</h1><h2 id='checks-the-status-of-speaker-module'>Checks the status of Speaker module</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'StatusCheck'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>StatusCheck</td>
+<td>2702</td>
+</tr>
+</tbody></table>
+
+<p>To work with Speaker module, Speaker module must be plugged in.</p>
+<h2 id='connects-to-the-speaker-module'>Connects to the Speaker module.</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'Connect'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Connect</td>
+<td>2700</td>
+</tr>
+</tbody></table>
+
+<p>Connects to the Speaker that is plugged in.</p>
+<h2 id='disconnects-from-the-speaker-module'>Disconnects from the Speaker module.</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'Disconnect'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Disconnect</td>
+<td>2700</td>
+</tr>
+</tbody></table>
+
+<p>Disconnects from Speaker that is plugged in.</p>
+<h1 id='data'>Data</h1>
+<aside class="warning">If you want to work with received data you need to listen for <code>DataReceived</code> event after Api is ready</aside>
+
+<blockquote>
+<p>When Moduware API is ready start listening for received data</p>
+</blockquote>
+<pre class="highlight javascript tab-javascript"><code><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'WebViewApiReady'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'DataReceived'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// we don't care about data not related to our module</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">moduleUuid</span> <span class="o">!=</span> <span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+    <span class="c1">// ... handle specific received data here ...</span>
+
+  <span class="p">});</span>
+<span class="p">});</span>
+</code></pre><h2 id='state-change-response'>State Change Response</h2><pre class="highlight javascript tab-javascript"><code><span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">dataSource</span> <span class="o">==</span> <span class="s1">'StateChangeResponse'</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// ... work with data variables here ...</span>
+<span class="p">}</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Data Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>StateChangeResponse</td>
+<td>2701</td>
+</tr>
+</tbody></table>
+
+<p>Response to state change command</p>
+<h3 id='variables'>Variables</h3><pre class="highlight javascript tab-javascript"><code><span class="k">switch</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">variables</span><span class="p">.</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">case</span> <span class="s1">'success'</span><span class="p">:</span>
+  <span class="c1">// ... handle the state here ...</span>
+  <span class="k">break</span><span class="p">;</span>
+  <span class="k">case</span> <span class="s1">'failure'</span><span class="p">:</span>
+  <span class="c1">// ... handle the state here ...</span>
+  <span class="k">break</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Title</th>
+<th>Description</th>
+<th>States</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>result</td>
+<td>Result</td>
+<td>Result of connect or disconnect request</td>
+<td>success / failure</td>
+</tr>
+</tbody></table>
+<h2 id='status-request-response'>Status Request Response</h2><pre class="highlight javascript tab-javascript"><code><span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">dataSource</span> <span class="o">==</span> <span class="s1">'StatusRequestResponse'</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// ... work with data variables here ...</span>
+<span class="p">}</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Data Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>StatusRequestResponse</td>
+<td>2703</td>
+</tr>
+</tbody></table>
+
+<p>Response to status request</p>
+<h3 id='variables-2'>Variables</h3><pre class="highlight javascript tab-javascript"><code><span class="k">switch</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">variables</span><span class="p">.</span><span class="nx">status</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">case</span> <span class="s1">'disconnected'</span><span class="p">:</span>
+  <span class="c1">// ... handle the state here ...</span>
+  <span class="k">break</span><span class="p">;</span>
+  <span class="k">case</span> <span class="s1">'connected'</span><span class="p">:</span>
+  <span class="c1">// ... handle the state here ...</span>
+  <span class="k">break</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Title</th>
+<th>Description</th>
+<th>States</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>status</td>
+<td>Status</td>
+<td>Indicates if module mounted as USB device</td>
+<td>disconnected / connected</td>
+</tr>
+</tbody></table>
+
+      </div>
+      <div class="dark-box">
+          <div class="lang-selector">
+                <a href="#" data-language-name="javascript">javascript</a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

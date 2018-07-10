@@ -1,0 +1,715 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>moduware.module.led Driver</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all.js"></script>
+  </head>
+
+  <body class="moduware" data-languages="[&quot;javascript&quot;]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="images/logo.png" class="logo" alt="Logo" />
+        <div class="lang-selector">
+              <a href="#" data-language-name="javascript">javascript</a>
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <div id="toc" class="toc-list-h1">
+          <li>
+            <a href="#driver-moduware-module-led" class="toc-h1 toc-link" data-title="driver-moduware-module-led">Driver: moduware.module.led</a>
+          </li>
+          <li>
+            <a href="#commands" class="toc-h1 toc-link" data-title="commands">Commands</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#set-color-in-rgb" class="toc-h2 toc-link" data-title="set-color-in-rgb">Set color in RGB</a>
+                  </li>
+                  <li>
+                    <a href="#turn-off-module-leds" class="toc-h2 toc-link" data-title="turn-off-module-leds">Turn off module leds</a>
+                  </li>
+                  <li>
+                    <a href="#flash-led-red-and-blue" class="toc-h2 toc-link" data-title="flash-led-red-and-blue">Flash LED Red And Blue</a>
+                  </li>
+                  <li>
+                    <a href="#set-one-led-in-rgb" class="toc-h2 toc-link" data-title="set-one-led-in-rgb">Set One LED in RGB</a>
+                  </li>
+                  <li>
+                    <a href="#set-flash-brightness" class="toc-h2 toc-link" data-title="set-flash-brightness">Set Flash brightness</a>
+                  </li>
+                  <li>
+                    <a href="#make-flash-with-delay" class="toc-h2 toc-link" data-title="make-flash-with-delay">Make flash with delay</a>
+                  </li>
+                  <li>
+                    <a href="#turn-off-module-flashes" class="toc-h2 toc-link" data-title="turn-off-module-flashes">Turn off module flashes</a>
+                  </li>
+                  <li>
+                    <a href="#start-flashing-rgb-leds" class="toc-h2 toc-link" data-title="start-flashing-rgb-leds">Start Flashing RGB LEDs</a>
+                  </li>
+                  <li>
+                    <a href="#stop-flashing-rgb-leds" class="toc-h2 toc-link" data-title="stop-flashing-rgb-leds">Stop Flashing RGB LEDs</a>
+                  </li>
+                  <li>
+                    <a href="#start-flashing-flash-leds" class="toc-h2 toc-link" data-title="start-flashing-flash-leds">Start Flashing Flash LEDs</a>
+                  </li>
+                  <li>
+                    <a href="#stop-flashing-flash-leds" class="toc-h2 toc-link" data-title="stop-flashing-flash-leds">Stop Flashing Flash Leds</a>
+                  </li>
+                  <li>
+                    <a href="#turn-on-rgb-led-temperature-protection" class="toc-h2 toc-link" data-title="turn-on-rgb-led-temperature-protection">Turn On Rgb Led Temperature Protection</a>
+                  </li>
+                  <li>
+                    <a href="#turn-off-rgb-led-temperature-protection" class="toc-h2 toc-link" data-title="turn-off-rgb-led-temperature-protection">Turn Off Rgb Led Temperature Protection</a>
+                  </li>
+                  <li>
+                    <a href="#turn-on-flash-led-temperature-protection" class="toc-h2 toc-link" data-title="turn-on-flash-led-temperature-protection">Turn On Flash Led Temperature Protection</a>
+                  </li>
+                  <li>
+                    <a href="#turn-off-flash-led-temperature-protection" class="toc-h2 toc-link" data-title="turn-off-flash-led-temperature-protection">Turn Off Flash Led Temperature Protection</a>
+                  </li>
+                  <li>
+                    <a href="#request-status" class="toc-h2 toc-link" data-title="request-status">Request Status</a>
+                  </li>
+              </ul>
+          </li>
+      </div>
+        <ul class="toc-footer">
+            <li><a href='https://moduware.github.io/developer-documentation/module-drivers/'>Drivers list</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='driver-moduware-module-led'>Driver: moduware.module.led</h1>
+<p><strong>Type</strong>: moduware.module.led</p>
+
+<p><strong>Version</strong>: 1.1.0</p>
+<h1 id='commands'>Commands</h1><h2 id='set-color-in-rgb'>Set color in RGB</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'SetRGB'</span><span class="p">,</span> <span class="p">[</span><span class="o">&lt;</span><span class="nx">Red</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Green</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Blue</span><span class="o">&gt;</span><span class="p">]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>SetRGB</td>
+<td>2702</td>
+</tr>
+</tbody></table>
+
+<p>Changes color of module to specified RGB color, takes 3 integers</p>
+<h3 id='arguments'>Arguments</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Validation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Red</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+<tr>
+<td>Blue</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+</tbody></table>
+<h2 id='turn-off-module-leds'>Turn off module leds</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'TurnOffLeds'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>TurnOffLeds</td>
+<td>2700</td>
+</tr>
+</tbody></table>
+
+<p>Turns off all led elements on module</p>
+<h2 id='flash-led-red-and-blue'>Flash LED Red And Blue</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'FlashLEDRedAndBlue'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>FlashLEDRedAndBlue</td>
+<td>2700</td>
+</tr>
+</tbody></table>
+
+<p>Flashed LED elements with red and blue color</p>
+<h2 id='set-one-led-in-rgb'>Set One LED in RGB</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'SetOneLEDInRGB'</span><span class="p">,</span> <span class="p">[</span><span class="o">&lt;</span><span class="nx">LedIndex</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Red</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Green</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Blue</span><span class="o">&gt;</span><span class="p">]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>SetOneLEDInRGB</td>
+<td>2708</td>
+</tr>
+</tbody></table>
+
+<p>Set particular LED in mudule to specific RGB color</p>
+<h3 id='arguments-2'>Arguments</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Validation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>LedIndex</td>
+<td>Integer made of byte where bits indicate leds to set 0-5, like 00001001</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 5)</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+<tr>
+<td>Blue</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+</tbody></table>
+<h2 id='set-flash-brightness'>Set Flash brightness</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'SetFlashes'</span><span class="p">,</span> <span class="p">[</span><span class="o">&lt;</span><span class="nx">Flash</span> <span class="mi">1</span> <span class="nx">Brightness</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Flash</span> <span class="mi">2</span> <span class="nx">Brightness</span><span class="o">&gt;</span><span class="p">]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>SetFlashes</td>
+<td>270A</td>
+</tr>
+</tbody></table>
+
+<p>Configure brightness of flash elements</p>
+<h3 id='arguments-3'>Arguments</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Validation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Flash 1 Brightness</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 9000)</td>
+</tr>
+<tr>
+<td>Flash 2 Brightness</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 9000)</td>
+</tr>
+</tbody></table>
+<h2 id='make-flash-with-delay'>Make flash with delay</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'FlashWithDelay'</span><span class="p">,</span> <span class="p">[</span><span class="o">&lt;</span><span class="nx">Power</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Delay</span><span class="o">&gt;</span><span class="p">]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>FlashWithDelay</td>
+<td>270A</td>
+</tr>
+</tbody></table>
+
+<p>Flashes one time with specified power after delay</p>
+<h3 id='arguments-4'>Arguments</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Validation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Power</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 15)</td>
+</tr>
+<tr>
+<td>Delay</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 1280)</td>
+</tr>
+</tbody></table>
+<h2 id='turn-off-module-flashes'>Turn off module flashes</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'TurnOffFlashs'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>TurnOffFlashs</td>
+<td>270A</td>
+</tr>
+</tbody></table>
+
+<p>Turn off all module flash elements</p>
+<h2 id='start-flashing-rgb-leds'>Start Flashing RGB LEDs</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'StartFlashingRgbLeds'</span><span class="p">,</span> <span class="p">[</span><span class="o">&lt;</span><span class="nx">Interval</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Duration</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Red</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Green</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Blue</span><span class="o">&gt;</span><span class="p">]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>StartFlashingRgbLeds</td>
+<td>270E</td>
+</tr>
+</tbody></table>
+
+<p>Flashing RGB LEDs with specified duration and interval</p>
+<h3 id='arguments-5'>Arguments</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Validation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Interval</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 65535)</td>
+</tr>
+<tr>
+<td>Duration</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 65535)</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+<tr>
+<td>Blue</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 255)</td>
+</tr>
+</tbody></table>
+<h2 id='stop-flashing-rgb-leds'>Stop Flashing RGB LEDs</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'StopFlashingRgbLeds'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>StopFlashingRgbLeds</td>
+<td>270E</td>
+</tr>
+</tbody></table>
+
+<p>Flashing RGB LEDs with specified duration and interval</p>
+<h2 id='start-flashing-flash-leds'>Start Flashing Flash LEDs</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'StartFlashingFlashLeds'</span><span class="p">,</span> <span class="p">[</span><span class="o">&lt;</span><span class="nx">Interval</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Duration</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nx">Flash</span> <span class="nx">Brightness</span><span class="o">&gt;</span><span class="p">]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>StartFlashingFlashLeds</td>
+<td>2710</td>
+</tr>
+</tbody></table>
+
+<p>Flashing Flash LEDs with specified duration and interval</p>
+<h3 id='arguments-6'>Arguments</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Validation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Interval</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 65535)</td>
+</tr>
+<tr>
+<td>Duration</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 65535)</td>
+</tr>
+<tr>
+<td>Flash Brightness</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 9000)</td>
+</tr>
+</tbody></table>
+<h2 id='stop-flashing-flash-leds'>Stop Flashing Flash Leds</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'StopFlashingFlashLeds'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>StopFlashingFlashLeds</td>
+<td>2710</td>
+</tr>
+</tbody></table>
+
+<p>Stop Flashing Flash Leds</p>
+<h2 id='turn-on-rgb-led-temperature-protection'>Turn On Rgb Led Temperature Protection</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'TurnOnRgbLedTemperatureProtection'</span><span class="p">,</span> <span class="p">[</span><span class="o">&lt;</span><span class="nx">Timer</span> <span class="nx">Value</span><span class="o">&gt;</span><span class="p">]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>TurnOnRgbLedTemperatureProtection</td>
+<td>2712</td>
+</tr>
+</tbody></table>
+
+<p>Turn On Rgb Led Temperature Protection</p>
+<h3 id='arguments-7'>Arguments</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Validation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Timer Value</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 65535)</td>
+</tr>
+</tbody></table>
+<h2 id='turn-off-rgb-led-temperature-protection'>Turn Off Rgb Led Temperature Protection</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'TurnOffRgbLedTemperatureProtection'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>TurnOffRgbLedTemperatureProtection</td>
+<td>2712</td>
+</tr>
+</tbody></table>
+
+<p>Turn Off Rgb Led Temperature Protection</p>
+<h2 id='turn-on-flash-led-temperature-protection'>Turn On Flash Led Temperature Protection</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'TurnOnFlashLedTemperatureProtection'</span><span class="p">,</span> <span class="p">[</span><span class="o">&lt;</span><span class="nx">Timer</span> <span class="nx">Value</span><span class="o">&gt;</span><span class="p">]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>TurnOnFlashLedTemperatureProtection</td>
+<td>2716</td>
+</tr>
+</tbody></table>
+
+<p>Turn On Flash Led Temperature Protection</p>
+<h3 id='arguments-8'>Arguments</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Validation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Timer Value</td>
+<td>-</td>
+<td>(<strong>value</strong> &gt;= 0) and (<strong>value</strong> &lt;= 65535)</td>
+</tr>
+</tbody></table>
+<h2 id='turn-off-flash-led-temperature-protection'>Turn Off Flash Led Temperature Protection</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'TurnOffFlashLedTemperatureProtection'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>TurnOffFlashLedTemperatureProtection</td>
+<td>2716</td>
+</tr>
+</tbody></table>
+
+<p>Turn Off Flash Led Temperature Protection</p>
+<h2 id='request-status'>Request Status</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'RequestStatus'</span><span class="p">,</span> <span class="p">[]);</span>
+</code></pre>
+<table><thead>
+<tr>
+<th>Command Name</th>
+<th>Message Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>RequestStatus</td>
+<td>2714</td>
+</tr>
+</tbody></table>
+
+<p>Request status of the LED module</p>
+
+      </div>
+      <div class="dark-box">
+          <div class="lang-selector">
+                <a href="#" data-language-name="javascript">javascript</a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
