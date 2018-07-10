@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="aaca257c-d3c0-4bce-92b1-aec52e161cae" Title="Nexpaq" Url="html/N_Nexpaq.htm">
+    <HelpTOCNode Id="3a5096a1-aa54-447a-b689-4a114be56b5f" Title="ModuleDriver Class" Url="html/T_Nexpaq_ModuleDriver.htm">
+      <HelpTOCNode Title="ModuleDriver Constructor " Url="html/M_Nexpaq_ModuleDriver__ctor.htm" />
+      <HelpTOCNode Id="e464e867-19bf-4c7c-959c-78e385ac1025" Title="ModuleDriver Properties" Url="html/Properties_T_Nexpaq_ModuleDriver.htm">
+        <HelpTOCNode Title="Commands Property " Url="html/P_Nexpaq_ModuleDriver_Commands.htm" />
+        <HelpTOCNode Title="DataItems Property " Url="html/P_Nexpaq_ModuleDriver_DataItems.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="61d7a534-d393-4dc4-a324-822d75358a7a" Title="ModuleDriver Methods" Url="html/Methods_T_Nexpaq_ModuleDriver.htm">
+        <HelpTOCNode Title="AddDataItem Method " Url="html/M_Nexpaq_ModuleDriver_AddDataItem.htm" />
+        <HelpTOCNode Title="ApplyRule Method " Url="html/M_Nexpaq_ModuleDriver_ApplyRule.htm" />
+        <HelpTOCNode Title="CalculateString Method " Url="html/M_Nexpaq_ModuleDriver_CalculateString.htm" />
+        <HelpTOCNode Title="ConvertBytes Method " Url="html/M_Nexpaq_ModuleDriver_ConvertBytes.htm" />
+        <HelpTOCNode Title="Export Method " Url="html/M_Nexpaq_ModuleDriver_Export.htm" />
+        <HelpTOCNode Title="FormatBytes Method " Url="html/M_Nexpaq_ModuleDriver_FormatBytes.htm" />
+        <HelpTOCNode Title="FormatString Method " Url="html/M_Nexpaq_ModuleDriver_FormatString.htm" />
+        <HelpTOCNode Title="Import Method " Url="html/M_Nexpaq_ModuleDriver_Import.htm" />
+        <HelpTOCNode Id="90d3be11-51e8-4a69-8d68-7009ee96e3e4" Title="MakeCommand Method " Url="html/Overload_Nexpaq_ModuleDriver_MakeCommand.htm">
+          <HelpTOCNode Title="MakeCommand Method (Int32, ModuleDriverCommand, Int32[])" Url="html/M_Nexpaq_ModuleDriver_MakeCommand.htm" />
+          <HelpTOCNode Title="MakeCommand Method (Int32, String, Int32[])" Url="html/M_Nexpaq_ModuleDriver_MakeCommand_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ParseMessage Method " Url="html/M_Nexpaq_ModuleDriver_ParseMessage.htm" />
+        <HelpTOCNode Title="Serialize Method " Url="html/M_Nexpaq_ModuleDriver_Serialize.htm" />
+        <HelpTOCNode Title="TakeBytes Method " Url="html/M_Nexpaq_ModuleDriver_TakeBytes.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="28e1080f-87f9-4b1c-8467-7629cd8822f2" Title="ModuleDriver Fields" Url="html/Fields_T_Nexpaq_ModuleDriver.htm">
+        <HelpTOCNode Title="SerializationSettings Field" Url="html/F_Nexpaq_ModuleDriver_SerializationSettings.htm" />
+        <HelpTOCNode Title="Type Field" Url="html/F_Nexpaq_ModuleDriver_Type.htm" />
+        <HelpTOCNode Title="Version Field" Url="html/F_Nexpaq_ModuleDriver_Version.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b5c39a8c-b77a-4530-9add-ba31be8f49b5" Title="ModuleDriverCommand Class" Url="html/T_Nexpaq_ModuleDriverCommand.htm">
+      <HelpTOCNode Title="ModuleDriverCommand Constructor " Url="html/M_Nexpaq_ModuleDriverCommand__ctor.htm" />
+      <HelpTOCNode Id="9e099ca7-2e86-44d5-812f-caf2241b4dda" Title="ModuleDriverCommand Methods" Url="html/Methods_T_Nexpaq_ModuleDriverCommand.htm">
+        <HelpTOCNode Title="ConvertHexToIntInString Method " Url="html/M_Nexpaq_ModuleDriverCommand_ConvertHexToIntInString.htm" />
+        <HelpTOCNode Title="GenerateDataFromArguments Method " Url="html/M_Nexpaq_ModuleDriverCommand_GenerateDataFromArguments.htm" />
+        <HelpTOCNode Title="ValidateArgument Method " Url="html/M_Nexpaq_ModuleDriverCommand_ValidateArgument.htm" />
+        <HelpTOCNode Title="ValidateArguments Method " Url="html/M_Nexpaq_ModuleDriverCommand_ValidateArguments.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="29e23a64-07e2-43cb-b051-721b435e9a09" Title="ModuleDriverCommand Fields" Url="html/Fields_T_Nexpaq_ModuleDriverCommand.htm">
+        <HelpTOCNode Title="Arguments Field" Url="html/F_Nexpaq_ModuleDriverCommand_Arguments.htm" />
+        <HelpTOCNode Title="Command Field" Url="html/F_Nexpaq_ModuleDriverCommand_Command.htm" />
+        <HelpTOCNode Title="DataRules Field" Url="html/F_Nexpaq_ModuleDriverCommand_DataRules.htm" />
+        <HelpTOCNode Title="Export Field" Url="html/F_Nexpaq_ModuleDriverCommand_Export.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e9f4bc28-01d6-4d7d-babf-1c4d1b293614" Title="ModuleDriverCommandArgument Class" Url="html/T_Nexpaq_ModuleDriverCommandArgument.htm">
+      <HelpTOCNode Title="ModuleDriverCommandArgument Constructor " Url="html/M_Nexpaq_ModuleDriverCommandArgument__ctor.htm" />
+      <HelpTOCNode Id="41165c21-d3d9-4ea6-8461-ab6173e7a802" Title="ModuleDriverCommandArgument Fields" Url="html/Fields_T_Nexpaq_ModuleDriverCommandArgument.htm">
+        <HelpTOCNode Title="Name Field" Url="html/F_Nexpaq_ModuleDriverCommandArgument_Name.htm" />
+        <HelpTOCNode Title="Validation Field" Url="html/F_Nexpaq_ModuleDriverCommandArgument_Validation.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d328685c-7859-4f63-bc6e-04104a43f87e" Title="ModuleDriverCommandDataItem Class" Url="html/T_Nexpaq_ModuleDriverCommandDataItem.htm">
+      <HelpTOCNode Title="ModuleDriverCommandDataItem Constructor " Url="html/M_Nexpaq_ModuleDriverCommandDataItem__ctor.htm" />
+      <HelpTOCNode Id="a74bd9b0-3593-4eaf-a401-d3e67cf83d4b" Title="ModuleDriverCommandDataItem Fields" Url="html/Fields_T_Nexpaq_ModuleDriverCommandDataItem.htm">
+        <HelpTOCNode Title="Convert Field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_Convert.htm" />
+        <HelpTOCNode Title="DefaultValue Field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_DefaultValue.htm" />
+        <HelpTOCNode Title="Format Field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_Format.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d85acb47-a719-4461-8c9d-1d2e34de408c" Title="ModuleDriverDataItem Class" Url="html/T_Nexpaq_ModuleDriverDataItem.htm">
+      <HelpTOCNode Title="ModuleDriverDataItem Constructor " Url="html/M_Nexpaq_ModuleDriverDataItem__ctor.htm" />
+      <HelpTOCNode Id="ebe89f78-1635-45a1-b8b6-54c72730fc10" Title="ModuleDriverDataItem Fields" Url="html/Fields_T_Nexpaq_ModuleDriverDataItem.htm">
+        <HelpTOCNode Title="Source Field" Url="html/F_Nexpaq_ModuleDriverDataItem_Source.htm" />
+        <HelpTOCNode Title="Variables Field" Url="html/F_Nexpaq_ModuleDriverDataItem_Variables.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b8e422ae-eaf7-4df7-923f-2b1137a0ef29" Title="ModuleDriverDataItemVariable Class" Url="html/T_Nexpaq_ModuleDriverDataItemVariable.htm">
+      <HelpTOCNode Title="ModuleDriverDataItemVariable Constructor " Url="html/M_Nexpaq_ModuleDriverDataItemVariable__ctor.htm" />
+      <HelpTOCNode Id="e53b3da8-af58-4f03-946c-65883212d983" Title="ModuleDriverDataItemVariable Fields" Url="html/Fields_T_Nexpaq_ModuleDriverDataItemVariable.htm">
+        <HelpTOCNode Title="CalculateFormat Field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_CalculateFormat.htm" />
+        <HelpTOCNode Title="Convert Field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_Convert.htm" />
+        <HelpTOCNode Title="DataSources Field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_DataSources.htm" />
+        <HelpTOCNode Title="Format Field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_Format.htm" />
+        <HelpTOCNode Title="States Field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_States.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="02a62d48-a60e-4873-b4ee-474589b1a671" Title="ModuleDriverField Class" Url="html/T_Nexpaq_ModuleDriverField.htm">
+      <HelpTOCNode Title="ModuleDriverField Constructor " Url="html/M_Nexpaq_ModuleDriverField__ctor.htm" />
+      <HelpTOCNode Id="78473435-582f-40d6-8ce5-22c38d826afc" Title="ModuleDriverField Fields" Url="html/Fields_T_Nexpaq_ModuleDriverField.htm">
+        <HelpTOCNode Title="Description Field" Url="html/F_Nexpaq_ModuleDriverField_Description.htm" />
+        <HelpTOCNode Title="Name Field" Url="html/F_Nexpaq_ModuleDriverField_Name.htm" />
+        <HelpTOCNode Title="Title Field" Url="html/F_Nexpaq_ModuleDriverField_Title.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d47e94dc-82e0-4ca1-a2b4-dbfb2fec1d46" Title="ModuleDrivers Class" Url="html/T_Nexpaq_ModuleDrivers.htm">
+      <HelpTOCNode Title="ModuleDrivers Constructor " Url="html/M_Nexpaq_ModuleDrivers__ctor.htm" />
+      <HelpTOCNode Id="3c61711b-636e-4b86-aa5d-328d1ee01609" Title="ModuleDrivers Methods" Url="html/Methods_T_Nexpaq_ModuleDrivers.htm">
+        <HelpTOCNode Title="Add Method " Url="html/M_Nexpaq_ModuleDrivers_Add.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/M_Nexpaq_ModuleDrivers_Delete.htm" />
+        <HelpTOCNode Title="GetByType Method " Url="html/M_Nexpaq_ModuleDrivers_GetByType.htm" />
+        <HelpTOCNode Title="Installed Method " Url="html/M_Nexpaq_ModuleDrivers_Installed.htm" />
+        <HelpTOCNode Title="Save Method " Url="html/M_Nexpaq_ModuleDrivers_Save.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
