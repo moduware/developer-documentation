@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="29b1c96c-2619-461e-8f32-f4c902c26b11" Title="Nexpaq" Url="html/N_Nexpaq.htm">
+    <HelpTOCNode Id="ebf41fc3-c5d8-4221-ad26-668fd8e56eb1" Title="ProductIdEventArgs Class" Url="html/T_Nexpaq_ProductIdEventArgs.htm">
+      <HelpTOCNode Title="ProductIdEventArgs Constructor " Url="html/M_Nexpaq_ProductIdEventArgs__ctor.htm" />
+      <HelpTOCNode Id="7160abaf-bbb4-4eae-b003-fb884d1a0e2e" Title="ProductIdEventArgs Fields" Url="html/Fields_T_Nexpaq_ProductIdEventArgs.htm">
+        <HelpTOCNode Title="Id Field" Url="html/F_Nexpaq_ProductIdEventArgs_Id.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c9dd7363-e69e-467f-bbc0-289b9cf88bb3" Title="Nexpaq.APIs" Url="html/N_Nexpaq_APIs.htm">
+    <HelpTOCNode Id="5f4a84ad-e9d6-4d2b-9a4d-2f7285d8fae1" Title="CloudAPI Class" Url="html/T_Nexpaq_APIs_CloudAPI.htm">
+      <HelpTOCNode Title="CloudAPI Constructor " Url="html/M_Nexpaq_APIs_CloudAPI__ctor.htm" />
+      <HelpTOCNode Id="92225c4a-33b1-4883-92b0-ce92008728bc" Title="CloudAPI Methods" Url="html/Methods_T_Nexpaq_APIs_CloudAPI.htm">
+        <HelpTOCNode Title="GetDataset Method " Url="html/M_Nexpaq_APIs_CloudAPI_GetDataset.htm" />
+        <HelpTOCNode Title="Request Method " Url="html/M_Nexpaq_APIs_CloudAPI_Request.htm" />
+        <HelpTOCNode Title="RequestProductInfo Method " Url="html/M_Nexpaq_APIs_CloudAPI_RequestProductInfo.htm" />
+        <HelpTOCNode Title="SaveDataset Method " Url="html/M_Nexpaq_APIs_CloudAPI_SaveDataset.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CloudAPI Events" Url="html/Events_T_Nexpaq_APIs_CloudAPI.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="435b14bc-bd3b-490e-826e-7cdf722cfada" Title="DriverAPI Class" Url="html/T_Nexpaq_APIs_DriverAPI.htm">
+      <HelpTOCNode Title="DriverAPI Constructor " Url="html/M_Nexpaq_APIs_DriverAPI__ctor.htm" />
+      <HelpTOCNode Id="bb26b349-065f-43a8-a1e9-dd6fe7ad240d" Title="DriverAPI Methods" Url="html/Methods_T_Nexpaq_APIs_DriverAPI.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/M_Nexpaq_APIs_DriverAPI_Delete.htm" />
+        <HelpTOCNode Title="Install Method " Url="html/M_Nexpaq_APIs_DriverAPI_Install.htm" />
+        <HelpTOCNode Title="Installed Method " Url="html/M_Nexpaq_APIs_DriverAPI_Installed.htm" />
+        <HelpTOCNode Title="InstallFromJson Method " Url="html/M_Nexpaq_APIs_DriverAPI_InstallFromJson.htm" />
+        <HelpTOCNode Title="Load Method " Url="html/M_Nexpaq_APIs_DriverAPI_Load.htm" />
+        <HelpTOCNode Title="LoadFromJson Method " Url="html/M_Nexpaq_APIs_DriverAPI_LoadFromJson.htm" />
+        <HelpTOCNode Title="Request Method " Url="html/M_Nexpaq_APIs_DriverAPI_Request.htm" />
+        <HelpTOCNode Title="RestoreDefault Method " Url="html/M_Nexpaq_APIs_DriverAPI_RestoreDefault.htm" />
+        <HelpTOCNode Title="SetToModule Method " Url="html/M_Nexpaq_APIs_DriverAPI_SetToModule.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DriverAPI Events" Url="html/Events_T_Nexpaq_APIs_DriverAPI.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6c7eab63-f60d-4325-bbe5-12791bf259c1" Title="GatewayAPI Class" Url="html/T_Nexpaq_APIs_GatewayAPI.htm">
+      <HelpTOCNode Title="GatewayAPI Constructor " Url="html/M_Nexpaq_APIs_GatewayAPI__ctor.htm" />
+      <HelpTOCNode Id="e61b103c-bbaf-458b-9168-955088a43674" Title="GatewayAPI Methods" Url="html/Methods_T_Nexpaq_APIs_GatewayAPI.htm">
+        <HelpTOCNode Title="ChargePhone Method " Url="html/M_Nexpaq_APIs_GatewayAPI_ChargePhone.htm" />
+        <HelpTOCNode Title="GetByUUID Method " Url="html/M_Nexpaq_APIs_GatewayAPI_GetByUUID.htm" />
+        <HelpTOCNode Title="GetProductByUUID Method " Url="html/M_Nexpaq_APIs_GatewayAPI_GetProductByUUID.htm" />
+        <HelpTOCNode Title="RequestBatteryStatus Method " Url="html/M_Nexpaq_APIs_GatewayAPI_RequestBatteryStatus.htm" />
+        <HelpTOCNode Title="StopChargingPhone Method " Url="html/M_Nexpaq_APIs_GatewayAPI_StopChargingPhone.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59949c9c-f3a8-4e13-a78c-f5c1920f3f12" Title="GatewayAPI Events" Url="html/Events_T_Nexpaq_APIs_GatewayAPI.htm">
+        <HelpTOCNode Title="BasicInfoReceived Event" Url="html/E_Nexpaq_APIs_GatewayAPI_BasicInfoReceived.htm" />
+        <HelpTOCNode Title="BatteryStateReceived Event" Url="html/E_Nexpaq_APIs_GatewayAPI_BatteryStateReceived.htm" />
+        <HelpTOCNode Title="BootloaderUpdateAvailable Event" Url="html/E_Nexpaq_APIs_GatewayAPI_BootloaderUpdateAvailable.htm" />
+        <HelpTOCNode Title="Connected Event" Url="html/E_Nexpaq_APIs_GatewayAPI_Connected.htm" />
+        <HelpTOCNode Title="Disconnected Event" Url="html/E_Nexpaq_APIs_GatewayAPI_Disconnected.htm" />
+        <HelpTOCNode Title="FirmwareUpdateAvailable Event" Url="html/E_Nexpaq_APIs_GatewayAPI_FirmwareUpdateAvailable.htm" />
+        <HelpTOCNode Title="Initialized Event" Url="html/E_Nexpaq_APIs_GatewayAPI_Initialized.htm" />
+        <HelpTOCNode Title="ManifestSet Event" Url="html/E_Nexpaq_APIs_GatewayAPI_ManifestSet.htm" />
+        <HelpTOCNode Title="SwitchedToAppMode Event" Url="html/E_Nexpaq_APIs_GatewayAPI_SwitchedToAppMode.htm" />
+        <HelpTOCNode Title="TypeRecognised Event" Url="html/E_Nexpaq_APIs_GatewayAPI_TypeRecognised.htm" />
+        <HelpTOCNode Title="UUIDRecieved Event" Url="html/E_Nexpaq_APIs_GatewayAPI_UUIDRecieved.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GatewayAPI Fields" Url="html/Fields_T_Nexpaq_APIs_GatewayAPI.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e3b86298-c79d-4cd9-95e5-1c14f12deef9" Title="MainAPI Class" Url="html/T_Nexpaq_APIs_MainAPI.htm">
+      <HelpTOCNode Title="MainAPI Constructor " Url="html/M_Nexpaq_APIs_MainAPI__ctor.htm" />
+      <HelpTOCNode Id="f5c15bb4-30e3-4e78-845d-530ddfa00924" Title="MainAPI Methods" Url="html/Methods_T_Nexpaq_APIs_MainAPI.htm">
+        <HelpTOCNode Title="Exit Method " Url="html/M_Nexpaq_APIs_MainAPI_Exit.htm" />
+        <HelpTOCNode Title="GetCurrentConfiguration Method " Url="html/M_Nexpaq_APIs_MainAPI_GetCurrentConfiguration.htm" />
+        <HelpTOCNode Title="GetCurrentConfigurationForTransfer Method " Url="html/M_Nexpaq_APIs_MainAPI_GetCurrentConfigurationForTransfer.htm" />
+        <HelpTOCNode Title="GetProductTypeID Method " Url="html/M_Nexpaq_APIs_MainAPI_GetProductTypeID.htm" />
+        <HelpTOCNode Title="InternetAvailable Method " Url="html/M_Nexpaq_APIs_MainAPI_InternetAvailable.htm" />
+        <HelpTOCNode Title="NetworkRequestStream Method " Url="html/M_Nexpaq_APIs_MainAPI_NetworkRequestStream.htm" />
+        <HelpTOCNode Title="NetworkRequestString Method " Url="html/M_Nexpaq_APIs_MainAPI_NetworkRequestString.htm" />
+        <HelpTOCNode Title="OnHadrwareBackButtonPressed Method " Url="html/M_Nexpaq_APIs_MainAPI_OnHadrwareBackButtonPressed.htm" />
+        <HelpTOCNode Title="StaticNetworkRequest Method " Url="html/M_Nexpaq_APIs_MainAPI_StaticNetworkRequest.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b90222e-350c-48ca-aa4b-3add7241a2be" Title="MainAPI Events" Url="html/Events_T_Nexpaq_APIs_MainAPI.htm">
+        <HelpTOCNode Title="BeforeExit Event" Url="html/E_Nexpaq_APIs_MainAPI_BeforeExit.htm" />
+        <HelpTOCNode Title="ExitRequestReceived Event" Url="html/E_Nexpaq_APIs_MainAPI_ExitRequestReceived.htm" />
+        <HelpTOCNode Title="HardwareBackButtonPressed Event" Url="html/E_Nexpaq_APIs_MainAPI_HardwareBackButtonPressed.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8f3e7005-fd37-4ab9-b042-97531f306776" Title="MainAPI Fields" Url="html/Fields_T_Nexpaq_APIs_MainAPI.htm">
+        <HelpTOCNode Title="Branch Field" Url="html/F_Nexpaq_APIs_MainAPI_Branch.htm" />
+        <HelpTOCNode Title="Cloud Field" Url="html/F_Nexpaq_APIs_MainAPI_Cloud.htm" />
+        <HelpTOCNode Title="CoreVersion Field" Url="html/F_Nexpaq_APIs_MainAPI_CoreVersion.htm" />
+        <HelpTOCNode Title="Driver Field" Url="html/F_Nexpaq_APIs_MainAPI_Driver.htm" />
+        <HelpTOCNode Title="Gateway Field" Url="html/F_Nexpaq_APIs_MainAPI_Gateway.htm" />
+        <HelpTOCNode Title="Manifest Field" Url="html/F_Nexpaq_APIs_MainAPI_Manifest.htm" />
+        <HelpTOCNode Title="Module Field" Url="html/F_Nexpaq_APIs_MainAPI_Module.htm" />
+        <HelpTOCNode Title="Repository Field" Url="html/F_Nexpaq_APIs_MainAPI_Repository.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d66a8e3e-9af6-49e1-bd8d-bac86bcf8277" Title="ManifestAPI Class" Url="html/T_Nexpaq_APIs_ManifestAPI.htm">
+      <HelpTOCNode Title="ManifestAPI Constructor " Url="html/M_Nexpaq_APIs_ManifestAPI__ctor.htm" />
+      <HelpTOCNode Id="ec1806ce-d0b8-49e2-808d-ba4cc4c9bba7" Title="ManifestAPI Methods" Url="html/Methods_T_Nexpaq_APIs_ManifestAPI.htm">
+        <HelpTOCNode Title="Add Method " Url="html/M_Nexpaq_APIs_ManifestAPI_Add.htm" />
+        <HelpTOCNode Title="Download Method " Url="html/M_Nexpaq_APIs_ManifestAPI_Download.htm" />
+        <HelpTOCNode Title="Get Method " Url="html/M_Nexpaq_APIs_ManifestAPI_Get.htm" />
+        <HelpTOCNode Title="Installed Method " Url="html/M_Nexpaq_APIs_ManifestAPI_Installed.htm" />
+        <HelpTOCNode Title="Request Method " Url="html/M_Nexpaq_APIs_ManifestAPI_Request.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ManifestAPI Events" Url="html/Events_T_Nexpaq_APIs_ManifestAPI.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e53733d2-45b9-4154-a571-0d954808d106" Title="ModuleAPI Class" Url="html/T_Nexpaq_APIs_ModuleAPI.htm">
+      <HelpTOCNode Title="ModuleAPI Constructor " Url="html/M_Nexpaq_APIs_ModuleAPI__ctor.htm" />
+      <HelpTOCNode Id="252be4d1-6678-4fbd-88a0-3f0dbc740d35" Title="ModuleAPI Methods" Url="html/Methods_T_Nexpaq_APIs_ModuleAPI.htm">
+        <HelpTOCNode Title="GetByUUID Method " Url="html/M_Nexpaq_APIs_ModuleAPI_GetByUUID.htm" />
+        <HelpTOCNode Title="GetProductByUUID Method " Url="html/M_Nexpaq_APIs_ModuleAPI_GetProductByUUID.htm" />
+        <HelpTOCNode Title="GetUUIDBySlot Method " Url="html/M_Nexpaq_APIs_ModuleAPI_GetUUIDBySlot.htm" />
+        <HelpTOCNode Title="InitializeModule Method " Url="html/M_Nexpaq_APIs_ModuleAPI_InitializeModule.htm" />
+        <HelpTOCNode Title="PairByName Method " Url="html/M_Nexpaq_APIs_ModuleAPI_PairByName.htm" />
+        <HelpTOCNode Title="SendCommand Method " Url="html/M_Nexpaq_APIs_ModuleAPI_SendCommand.htm" />
+        <HelpTOCNode Title="SendRawCommand Method " Url="html/M_Nexpaq_APIs_ModuleAPI_SendRawCommand.htm" />
+        <HelpTOCNode Title="SendRawHexCommand Method " Url="html/M_Nexpaq_APIs_ModuleAPI_SendRawHexCommand.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="146e7d01-89f6-43f3-b86b-656d9476560f" Title="ModuleAPI Events" Url="html/Events_T_Nexpaq_APIs_ModuleAPI.htm">
+        <HelpTOCNode Title="AllInfoReceived Event" Url="html/E_Nexpaq_APIs_ModuleAPI_AllInfoReceived.htm" />
+        <HelpTOCNode Title="BasicInfoReceived Event" Url="html/E_Nexpaq_APIs_ModuleAPI_BasicInfoReceived.htm" />
+        <HelpTOCNode Title="BatteryStateReceived Event" Url="html/E_Nexpaq_APIs_ModuleAPI_BatteryStateReceived.htm" />
+        <HelpTOCNode Title="DataReceived Event" Url="html/E_Nexpaq_APIs_ModuleAPI_DataReceived.htm" />
+        <HelpTOCNode Title="FirmwareUpdateAvailable Event" Url="html/E_Nexpaq_APIs_ModuleAPI_FirmwareUpdateAvailable.htm" />
+        <HelpTOCNode Title="Inserted Event" Url="html/E_Nexpaq_APIs_ModuleAPI_Inserted.htm" />
+        <HelpTOCNode Title="ManifestSet Event" Url="html/E_Nexpaq_APIs_ModuleAPI_ManifestSet.htm" />
+        <HelpTOCNode Title="Pulled Event" Url="html/E_Nexpaq_APIs_ModuleAPI_Pulled.htm" />
+        <HelpTOCNode Title="RawDataReceived Event" Url="html/E_Nexpaq_APIs_ModuleAPI_RawDataReceived.htm" />
+        <HelpTOCNode Title="TypeRecognised Event" Url="html/E_Nexpaq_APIs_ModuleAPI_TypeRecognised.htm" />
+        <HelpTOCNode Title="UUIDRecieved Event" Url="html/E_Nexpaq_APIs_ModuleAPI_UUIDRecieved.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ModuleAPI Fields" Url="html/Fields_T_Nexpaq_APIs_ModuleAPI.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eb5b4231-0bf0-4758-bc9c-33c460b30d96" Title="ProductAPI Class" Url="html/T_Nexpaq_APIs_ProductAPI.htm">
+      <HelpTOCNode Title="ProductAPI Constructor " Url="html/M_Nexpaq_APIs_ProductAPI__ctor.htm" />
+      <HelpTOCNode Id="5819e9af-07a2-46e0-afef-d08a42b50915" Title="ProductAPI Methods" Url="html/Methods_T_Nexpaq_APIs_ProductAPI.htm">
+        <HelpTOCNode Title="BSLInfoReceivedHandler Method " Url="html/M_Nexpaq_APIs_ProductAPI_BSLInfoReceivedHandler.htm" />
+        <HelpTOCNode Title="ChangeMode Method " Url="html/M_Nexpaq_APIs_ProductAPI_ChangeMode.htm" />
+        <HelpTOCNode Title="EraseFirmware Method " Url="html/M_Nexpaq_APIs_ProductAPI_EraseFirmware.htm" />
+        <HelpTOCNode Title="GetProductByUUID Method " Url="html/M_Nexpaq_APIs_ProductAPI_GetProductByUUID.htm" />
+        <HelpTOCNode Title="GetTypeID Method " Url="html/M_Nexpaq_APIs_ProductAPI_GetTypeID.htm" />
+        <HelpTOCNode Title="InstallFirmware Method " Url="html/M_Nexpaq_APIs_ProductAPI_InstallFirmware.htm" />
+        <HelpTOCNode Title="InstallLatestFirmware Method " Url="html/M_Nexpaq_APIs_ProductAPI_InstallLatestFirmware.htm" />
+        <HelpTOCNode Title="InstallSpecificFirmware Method " Url="html/M_Nexpaq_APIs_ProductAPI_InstallSpecificFirmware.htm" />
+        <HelpTOCNode Title="RequestBasicData Method " Url="html/M_Nexpaq_APIs_ProductAPI_RequestBasicData.htm" />
+        <HelpTOCNode Title="RequestFirmwareVersion Method " Url="html/M_Nexpaq_APIs_ProductAPI_RequestFirmwareVersion.htm" />
+        <HelpTOCNode Title="SetManifest Method " Url="html/M_Nexpaq_APIs_ProductAPI_SetManifest.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="29691f68-3bfd-45e6-a73d-6504718cc96c" Title="ProductAPI Events" Url="html/Events_T_Nexpaq_APIs_ProductAPI.htm">
+        <HelpTOCNode Title="BSLInfoReceived Event" Url="html/E_Nexpaq_APIs_ProductAPI_BSLInfoReceived.htm" />
+        <HelpTOCNode Title="FirmwareFlashed Event" Url="html/E_Nexpaq_APIs_ProductAPI_FirmwareFlashed.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="16ca531f-6b0c-40f8-bfed-86d0db2fa2bd" Title="ProductAPI Fields" Url="html/Fields_T_Nexpaq_APIs_ProductAPI.htm">
+        <HelpTOCNode Title="API Field" Url="html/F_Nexpaq_APIs_ProductAPI_API.htm" />
+        <HelpTOCNode Title="Type Field" Url="html/F_Nexpaq_APIs_ProductAPI_Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="27d343bf-608c-457c-a2e4-03d7ae9f8032" Title="RepositoryAPI Class" Url="html/T_Nexpaq_APIs_RepositoryAPI.htm">
+      <HelpTOCNode Title="RepositoryAPI Constructor " Url="html/M_Nexpaq_APIs_RepositoryAPI__ctor.htm" />
+      <HelpTOCNode Id="e4b65076-3d3a-440f-b543-3740e33d56f8" Title="RepositoryAPI Methods" Url="html/Methods_T_Nexpaq_APIs_RepositoryAPI.htm">
+        <HelpTOCNode Title="RequestBootloader Method " Url="html/M_Nexpaq_APIs_RepositoryAPI_RequestBootloader.htm" />
+        <HelpTOCNode Title="RequestFileStream Method " Url="html/M_Nexpaq_APIs_RepositoryAPI_RequestFileStream.htm" />
+        <HelpTOCNode Title="RequestFirmware Method " Url="html/M_Nexpaq_APIs_RepositoryAPI_RequestFirmware.htm" />
+        <HelpTOCNode Title="RequestLatestFirmware Method " Url="html/M_Nexpaq_APIs_RepositoryAPI_RequestLatestFirmware.htm" />
+        <HelpTOCNode Title="RequestTextFile Method " Url="html/M_Nexpaq_APIs_RepositoryAPI_RequestTextFile.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RepositoryAPI Events" Url="html/Events_T_Nexpaq_APIs_RepositoryAPI.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="406bfee6-325f-4e8e-8e59-87624103fbc9" Title="Nexpaq.EventArguments" Url="html/N_Nexpaq_EventArguments.htm">
+    <HelpTOCNode Id="1b275c8c-f6f0-4b89-b28f-b907b57dfb3f" Title="DriverParseResultEventArgs Class" Url="html/T_Nexpaq_EventArguments_DriverParseResultEventArgs.htm">
+      <HelpTOCNode Title="DriverParseResultEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_DriverParseResultEventArgs__ctor.htm" />
+      <HelpTOCNode Id="ad13bb08-1c07-49d8-b67c-e2f34ebf6dc2" Title="DriverParseResultEventArgs Properties" Url="html/Properties_T_Nexpaq_EventArguments_DriverParseResultEventArgs.htm">
+        <HelpTOCNode Title="LegacyDataSource Property " Url="html/P_Nexpaq_EventArguments_DriverParseResultEventArgs_LegacyDataSource.htm" />
+        <HelpTOCNode Title="LegacyModuleUUID Property " Url="html/P_Nexpaq_EventArguments_DriverParseResultEventArgs_LegacyModuleUUID.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aa043870-36a4-4d32-a54e-45bf5c1b4b62" Title="DriverParseResultEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_DriverParseResultEventArgs.htm">
+        <HelpTOCNode Title="DataSource Field" Url="html/F_Nexpaq_EventArguments_DriverParseResultEventArgs_DataSource.htm" />
+        <HelpTOCNode Title="ModuleUUID Field" Url="html/F_Nexpaq_EventArguments_DriverParseResultEventArgs_ModuleUUID.htm" />
+        <HelpTOCNode Title="Variables Field" Url="html/F_Nexpaq_EventArguments_DriverParseResultEventArgs_Variables.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5ea73491-0c11-499f-b1e2-dcab25e4c66d" Title="GatewayEventArgs Class" Url="html/T_Nexpaq_EventArguments_GatewayEventArgs.htm">
+      <HelpTOCNode Title="GatewayEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_GatewayEventArgs__ctor.htm" />
+      <HelpTOCNode Id="7a1b4cd3-2656-4ab8-8657-dcaeaa345d8f" Title="GatewayEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_GatewayEventArgs.htm">
+        <HelpTOCNode Title="Gateway Field" Url="html/F_Nexpaq_EventArguments_GatewayEventArgs_Gateway.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bb012f4d-1ca7-4521-980d-9cf29d3239a7" Title="GatewayManifestEventArgs Class" Url="html/T_Nexpaq_EventArguments_GatewayManifestEventArgs.htm">
+      <HelpTOCNode Title="GatewayManifestEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_GatewayManifestEventArgs__ctor.htm" />
+      <HelpTOCNode Id="5ff6a5cd-98a5-413d-a875-86c850af4897" Title="GatewayManifestEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_GatewayManifestEventArgs.htm">
+        <HelpTOCNode Title="Manifest Field" Url="html/F_Nexpaq_EventArguments_GatewayManifestEventArgs_Manifest.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0938c5ec-3082-4cc8-9de1-e7f88055bb76" Title="ModuleEventArgs Class" Url="html/T_Nexpaq_EventArguments_ModuleEventArgs.htm">
+      <HelpTOCNode Title="ModuleEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ModuleEventArgs__ctor.htm" />
+      <HelpTOCNode Id="6928ba4a-28d3-4d0e-9ccb-09d70b1bc69c" Title="ModuleEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ModuleEventArgs.htm">
+        <HelpTOCNode Title="GatewayUUID Field" Url="html/F_Nexpaq_EventArguments_ModuleEventArgs_GatewayUUID.htm" />
+        <HelpTOCNode Title="Module Field" Url="html/F_Nexpaq_EventArguments_ModuleEventArgs_Module.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0d6f78af-c2a3-4724-b830-020006afa36b" Title="ModuleManifestEventArgs Class" Url="html/T_Nexpaq_EventArguments_ModuleManifestEventArgs.htm">
+      <HelpTOCNode Title="ModuleManifestEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ModuleManifestEventArgs__ctor.htm" />
+      <HelpTOCNode Id="c4bf8f31-f8b4-4a09-98ce-f3d8031910b7" Title="ModuleManifestEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ModuleManifestEventArgs.htm">
+        <HelpTOCNode Title="Manifest Field" Url="html/F_Nexpaq_EventArguments_ModuleManifestEventArgs_Manifest.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3c42bfc1-08f7-4f60-8435-63fc601ed79b" Title="ModuleMessageEventArgs Class" Url="html/T_Nexpaq_EventArguments_ModuleMessageEventArgs.htm">
+      <HelpTOCNode Title="ModuleMessageEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ModuleMessageEventArgs__ctor.htm" />
+      <HelpTOCNode Id="57a29fe1-e844-4ed7-b46e-406dac44960a" Title="ModuleMessageEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ModuleMessageEventArgs.htm">
+        <HelpTOCNode Title="Data Field" Url="html/F_Nexpaq_EventArguments_ModuleMessageEventArgs_Data.htm" />
+        <HelpTOCNode Title="DataSource Field" Url="html/F_Nexpaq_EventArguments_ModuleMessageEventArgs_DataSource.htm" />
+        <HelpTOCNode Title="ModuleUUID Field" Url="html/F_Nexpaq_EventArguments_ModuleMessageEventArgs_ModuleUUID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="832ed03a-3ba0-4821-ba9c-bf66cd805cdf" Title="ModuleTypeEventArgs Class" Url="html/T_Nexpaq_EventArguments_ModuleTypeEventArgs.htm">
+      <HelpTOCNode Title="ModuleTypeEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ModuleTypeEventArgs__ctor.htm" />
+      <HelpTOCNode Id="1e5e1f41-e642-4502-956d-189683722555" Title="ModuleTypeEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ModuleTypeEventArgs.htm">
+        <HelpTOCNode Title="Slot Field" Url="html/F_Nexpaq_EventArguments_ModuleTypeEventArgs_Slot.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b8927685-5a52-44fe-873c-4833a2f2d136" Title="ProductBatteryEventArgs Class" Url="html/T_Nexpaq_EventArguments_ProductBatteryEventArgs.htm">
+      <HelpTOCNode Title="ProductBatteryEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ProductBatteryEventArgs__ctor.htm" />
+      <HelpTOCNode Id="94f67f23-f13d-4267-b983-4360fad2e362" Title="ProductBatteryEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ProductBatteryEventArgs.htm">
+        <HelpTOCNode Title="UUID Field" Url="html/F_Nexpaq_EventArguments_ProductBatteryEventArgs_UUID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="256cd6d8-42fa-47c2-bb7f-9cd736526986" Title="ProductBSLInfoEventArgs Class" Url="html/T_Nexpaq_EventArguments_ProductBSLInfoEventArgs.htm">
+      <HelpTOCNode Title="ProductBSLInfoEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ProductBSLInfoEventArgs__ctor.htm" />
+      <HelpTOCNode Id="87d01245-9264-46ba-a7c2-cae7e7f27926" Title="ProductBSLInfoEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ProductBSLInfoEventArgs.htm">
+        <HelpTOCNode Title="BSLInfo Field" Url="html/F_Nexpaq_EventArguments_ProductBSLInfoEventArgs_BSLInfo.htm" />
+        <HelpTOCNode Title="UUID Field" Url="html/F_Nexpaq_EventArguments_ProductBSLInfoEventArgs_UUID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c2ad97b-7805-4597-b6e4-c5a644392675" Title="ProductEventArgs Class" Url="html/T_Nexpaq_EventArguments_ProductEventArgs.htm">
+      <HelpTOCNode Title="ProductEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ProductEventArgs__ctor.htm" />
+      <HelpTOCNode Id="29faf786-9a4d-4b1f-af76-3ae6cb966920" Title="ProductEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ProductEventArgs.htm">
+        <HelpTOCNode Title="Product Field" Url="html/F_Nexpaq_EventArguments_ProductEventArgs_Product.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="81f74811-8e6b-4c76-a88c-acb9dc6e1444" Title="ProductTypeEventArgs Class" Url="html/T_Nexpaq_EventArguments_ProductTypeEventArgs.htm">
+      <HelpTOCNode Title="ProductTypeEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ProductTypeEventArgs__ctor.htm" />
+      <HelpTOCNode Id="7c159fb7-d1a4-415a-a05d-60f2001bef03" Title="ProductTypeEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ProductTypeEventArgs.htm">
+        <HelpTOCNode Title="TypeID Field" Url="html/F_Nexpaq_EventArguments_ProductTypeEventArgs_TypeID.htm" />
+        <HelpTOCNode Title="UUID Field" Url="html/F_Nexpaq_EventArguments_ProductTypeEventArgs_UUID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="011b646e-585f-424d-8526-bb2dfe983f52" Title="ProductUpdateEventArgs Class" Url="html/T_Nexpaq_EventArguments_ProductUpdateEventArgs.htm">
+      <HelpTOCNode Title="ProductUpdateEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ProductUpdateEventArgs__ctor.htm" />
+      <HelpTOCNode Id="91360c40-4147-48d8-830c-fd40cb3d7658" Title="ProductUpdateEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ProductUpdateEventArgs.htm">
+        <HelpTOCNode Title="Manifest Field" Url="html/F_Nexpaq_EventArguments_ProductUpdateEventArgs_Manifest.htm" />
+        <HelpTOCNode Title="UUID Field" Url="html/F_Nexpaq_EventArguments_ProductUpdateEventArgs_UUID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd97a92f-7ce5-4628-9680-d056d3d829f6" Title="ProductUUIDEventArgs Class" Url="html/T_Nexpaq_EventArguments_ProductUUIDEventArgs.htm">
+      <HelpTOCNode Title="ProductUUIDEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_ProductUUIDEventArgs__ctor.htm" />
+      <HelpTOCNode Id="b7def7b7-dba6-4d6b-b537-a37a0b082b46" Title="ProductUUIDEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_ProductUUIDEventArgs.htm">
+        <HelpTOCNode Title="UUID Field" Url="html/F_Nexpaq_EventArguments_ProductUUIDEventArgs_UUID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a886da2c-c00e-4e4c-81c0-53095dfa67a6" Title="SlotEventArgs Class" Url="html/T_Nexpaq_EventArguments_SlotEventArgs.htm">
+      <HelpTOCNode Title="SlotEventArgs Constructor " Url="html/M_Nexpaq_EventArguments_SlotEventArgs__ctor.htm" />
+      <HelpTOCNode Id="81e76eec-1a5e-4d6b-b98c-809c276f2666" Title="SlotEventArgs Fields" Url="html/Fields_T_Nexpaq_EventArguments_SlotEventArgs.htm">
+        <HelpTOCNode Title="GatewayUUID Field" Url="html/F_Nexpaq_EventArguments_SlotEventArgs_GatewayUUID.htm" />
+        <HelpTOCNode Title="ModuleUUID Field" Url="html/F_Nexpaq_EventArguments_SlotEventArgs_ModuleUUID.htm" />
+        <HelpTOCNode Title="Slot Field" Url="html/F_Nexpaq_EventArguments_SlotEventArgs_Slot.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

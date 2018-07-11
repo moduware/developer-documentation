@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Arguments field" Url="html/F_Nexpaq_ModuleDriverCommand_Arguments.htm" />
+  <HelpKINode Title="CalculateFormat field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_CalculateFormat.htm" />
+  <HelpKINode Title="Command field" Url="html/F_Nexpaq_ModuleDriverCommand_Command.htm" />
+  <HelpKINode Title="Commands property" Url="html/P_Nexpaq_ModuleDriver_Commands.htm" />
+  <HelpKINode Title="Convert field">
+    <HelpKINode Title="ModuleDriverCommandDataItem.Convert Field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_Convert.htm" />
+    <HelpKINode Title="ModuleDriverDataItemVariable.Convert Field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_Convert.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataItems property" Url="html/P_Nexpaq_ModuleDriver_DataItems.htm" />
+  <HelpKINode Title="DataRules field" Url="html/F_Nexpaq_ModuleDriverCommand_DataRules.htm" />
+  <HelpKINode Title="DataSources field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_DataSources.htm" />
+  <HelpKINode Title="DefaultValue field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_DefaultValue.htm" />
+  <HelpKINode Title="Description field" Url="html/F_Nexpaq_ModuleDriverField_Description.htm" />
+  <HelpKINode Title="Export field" Url="html/F_Nexpaq_ModuleDriverCommand_Export.htm" />
+  <HelpKINode Title="Format field">
+    <HelpKINode Title="ModuleDriverCommandDataItem.Format Field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_Format.htm" />
+    <HelpKINode Title="ModuleDriverDataItemVariable.Format Field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_Format.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleDriver class">
+    <HelpKINode Title="ModuleDriver Class" Url="html/T_Nexpaq_ModuleDriver.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Nexpaq_ModuleDriver.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Nexpaq_ModuleDriver.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleDriver.Commands property" Url="html/P_Nexpaq_ModuleDriver_Commands.htm" />
+  <HelpKINode Title="ModuleDriver.DataItems property" Url="html/P_Nexpaq_ModuleDriver_DataItems.htm" />
+  <HelpKINode Title="ModuleDriver.Type field" Url="html/F_Nexpaq_ModuleDriver_Type.htm" />
+  <HelpKINode Title="ModuleDriver.Version field" Url="html/F_Nexpaq_ModuleDriver_Version.htm" />
+  <HelpKINode Title="ModuleDriverCommand class">
+    <HelpKINode Title="ModuleDriverCommand Class" Url="html/T_Nexpaq_ModuleDriverCommand.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Nexpaq_ModuleDriverCommand.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleDriverCommand.Arguments field" Url="html/F_Nexpaq_ModuleDriverCommand_Arguments.htm" />
+  <HelpKINode Title="ModuleDriverCommand.Command field" Url="html/F_Nexpaq_ModuleDriverCommand_Command.htm" />
+  <HelpKINode Title="ModuleDriverCommand.DataRules field" Url="html/F_Nexpaq_ModuleDriverCommand_DataRules.htm" />
+  <HelpKINode Title="ModuleDriverCommand.Export field" Url="html/F_Nexpaq_ModuleDriverCommand_Export.htm" />
+  <HelpKINode Title="ModuleDriverCommandArgument class">
+    <HelpKINode Title="ModuleDriverCommandArgument Class" Url="html/T_Nexpaq_ModuleDriverCommandArgument.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Nexpaq_ModuleDriverCommandArgument.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleDriverCommandArgument.Name field" Url="html/F_Nexpaq_ModuleDriverCommandArgument_Name.htm" />
+  <HelpKINode Title="ModuleDriverCommandArgument.Validation field" Url="html/F_Nexpaq_ModuleDriverCommandArgument_Validation.htm" />
+  <HelpKINode Title="ModuleDriverCommandDataItem class">
+    <HelpKINode Title="ModuleDriverCommandDataItem Class" Url="html/T_Nexpaq_ModuleDriverCommandDataItem.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Nexpaq_ModuleDriverCommandDataItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleDriverCommandDataItem.Convert field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_Convert.htm" />
+  <HelpKINode Title="ModuleDriverCommandDataItem.DefaultValue field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_DefaultValue.htm" />
+  <HelpKINode Title="ModuleDriverCommandDataItem.Format field" Url="html/F_Nexpaq_ModuleDriverCommandDataItem_Format.htm" />
+  <HelpKINode Title="ModuleDriverDataItem class">
+    <HelpKINode Title="ModuleDriverDataItem Class" Url="html/T_Nexpaq_ModuleDriverDataItem.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Nexpaq_ModuleDriverDataItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleDriverDataItem.Source field" Url="html/F_Nexpaq_ModuleDriverDataItem_Source.htm" />
+  <HelpKINode Title="ModuleDriverDataItem.Variables field" Url="html/F_Nexpaq_ModuleDriverDataItem_Variables.htm" />
+  <HelpKINode Title="ModuleDriverDataItemVariable class">
+    <HelpKINode Title="ModuleDriverDataItemVariable Class" Url="html/T_Nexpaq_ModuleDriverDataItemVariable.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Nexpaq_ModuleDriverDataItemVariable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleDriverDataItemVariable.CalculateFormat field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_CalculateFormat.htm" />
+  <HelpKINode Title="ModuleDriverDataItemVariable.Convert field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_Convert.htm" />
+  <HelpKINode Title="ModuleDriverDataItemVariable.DataSources field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_DataSources.htm" />
+  <HelpKINode Title="ModuleDriverDataItemVariable.Format field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_Format.htm" />
+  <HelpKINode Title="ModuleDriverDataItemVariable.States field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_States.htm" />
+  <HelpKINode Title="ModuleDriverField class">
+    <HelpKINode Title="ModuleDriverField Class" Url="html/T_Nexpaq_ModuleDriverField.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Nexpaq_ModuleDriverField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleDriverField.Description field" Url="html/F_Nexpaq_ModuleDriverField_Description.htm" />
+  <HelpKINode Title="ModuleDriverField.Name field" Url="html/F_Nexpaq_ModuleDriverField_Name.htm" />
+  <HelpKINode Title="ModuleDriverField.Title field" Url="html/F_Nexpaq_ModuleDriverField_Title.htm" />
+  <HelpKINode Title="Name field">
+    <HelpKINode Title="ModuleDriverCommandArgument.Name Field" Url="html/F_Nexpaq_ModuleDriverCommandArgument_Name.htm" />
+    <HelpKINode Title="ModuleDriverField.Name Field" Url="html/F_Nexpaq_ModuleDriverField_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Nexpaq namespace" Url="html/N_Nexpaq.htm" />
+  <HelpKINode Title="Nexpaq.ModuleDriver class" Url="html/T_Nexpaq_ModuleDriver.htm" />
+  <HelpKINode Title="Nexpaq.ModuleDriverCommand class" Url="html/T_Nexpaq_ModuleDriverCommand.htm" />
+  <HelpKINode Title="Nexpaq.ModuleDriverCommandArgument class" Url="html/T_Nexpaq_ModuleDriverCommandArgument.htm" />
+  <HelpKINode Title="Nexpaq.ModuleDriverCommandDataItem class" Url="html/T_Nexpaq_ModuleDriverCommandDataItem.htm" />
+  <HelpKINode Title="Nexpaq.ModuleDriverDataItem class" Url="html/T_Nexpaq_ModuleDriverDataItem.htm" />
+  <HelpKINode Title="Nexpaq.ModuleDriverDataItemVariable class" Url="html/T_Nexpaq_ModuleDriverDataItemVariable.htm" />
+  <HelpKINode Title="Nexpaq.ModuleDriverField class" Url="html/T_Nexpaq_ModuleDriverField.htm" />
+  <HelpKINode Title="Source field" Url="html/F_Nexpaq_ModuleDriverDataItem_Source.htm" />
+  <HelpKINode Title="States field" Url="html/F_Nexpaq_ModuleDriverDataItemVariable_States.htm" />
+  <HelpKINode Title="Title field" Url="html/F_Nexpaq_ModuleDriverField_Title.htm" />
+  <HelpKINode Title="Type field" Url="html/F_Nexpaq_ModuleDriver_Type.htm" />
+  <HelpKINode Title="Validation field" Url="html/F_Nexpaq_ModuleDriverCommandArgument_Validation.htm" />
+  <HelpKINode Title="Variables field" Url="html/F_Nexpaq_ModuleDriverDataItem_Variables.htm" />
+  <HelpKINode Title="Version field" Url="html/F_Nexpaq_ModuleDriver_Version.htm" />
+</HelpKI>
