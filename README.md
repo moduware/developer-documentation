@@ -12,7 +12,7 @@ Moduware provides many examples and templates to make your development process s
 * [Protocol Message Format](https://github.com/nexpaq/msp430-firmware-template/blob/master/Protocol%20Message%20Format.md)
 * [Module Drivers Reference](https://moduware.github.io/developer-documentation/module-drivers/)
 * [Driver Format Reference]
-* [API Refence v0](https://moduware.github.io/developer-documentation/moduware-api-reference-docs/html/N_Nexpaq.htm)
+* [API Refence v0](https://moduware.github.io/developer-documentation/moduware-api-reference-docs/html/N_Nexpaq_APIs.htm)
 
 ## Hardware 
 Module PCB Layout, Schematics and 2D/3D housing templates
