@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.5.29.0" projectFile="D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference.shfbproj" started="7/11/2018 10:27:32 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.5.29.0" projectFile="D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference.shfbproj" started="7/12/2018 1:30:59 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -28,16 +28,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0260
+</plugIn>    Last step completed in 00:00:00.2020
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0350
+    Last step completed in 00:00:00.0360
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 7/11/2018 10:27:34 AM.
+Build started 7/12/2018 1:31:02 PM.
 Project &quot;D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -57,13 +57,13 @@ Done Building Project &quot;D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCor
 
 Build succeeded.
 
-Time Elapsed 00:00:05.12
-    Last step completed in 00:00:05.5580
+Time Elapsed 00:00:05.18
+    Last step completed in 00:00:05.6439
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 7/11/2018 10:27:40 AM.
+Build started 7/12/2018 1:31:08 PM.
 Project &quot;D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.5.29.0)
@@ -83,26 +83,26 @@ Done Building Project &quot;D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCor
 
 Build succeeded.
 
-Time Elapsed 00:00:00.93
-    Last step completed in 00:00:01.2460
+Time Elapsed 00:00:00.91
+    Last step completed in 00:00:01.1880
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0510
+    Last step completed in 00:00:00.0580
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 7/11/2018 10:27:41 AM.
+Build started 7/12/2018 1:31:09 PM.
 Project &quot;D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.5.29.0)
@@ -113,26 +113,26 @@ Done Building Project &quot;D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCor
 
 Build succeeded.
 
-Time Elapsed 00:00:00.23
+Time Elapsed 00:00:00.25
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.5000
+    Last step completed in 00:00:00.5210
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4470
+    Last step completed in 00:00:00.7500
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0810
+    Last step completed in 00:00:00.0710
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 7/11/2018 10:27:42 AM.
+Build started 7/12/2018 1:31:11 PM.
 Project &quot;D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.5.29.0)
@@ -151,12 +151,12 @@ Done Building Project &quot;D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCor
 
 Build succeeded.
 
-Time Elapsed 00:00:07.72
-    Last step completed in 00:00:08.0392
+Time Elapsed 00:00:10.09
+    Last step completed in 00:00:10.5401
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -172,7 +172,7 @@ Processed 39 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\WebKI.xml
 Saving website table of contents to D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\WebTOC.xml
-    Last step completed in 00:00:00.6611
+    Last step completed in 00:00:01.4599
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -254,32 +254,32 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\Nexpaq\xamarin-mobile-application-sisko\NexpaqCore\ModuwareModuleDriversReference\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.1418
+    Last step completed in 00:00:01.9463
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.7768
+</plugIn>    Last step completed in 00:00:01.1030
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 158 files for the website content
-    Last step completed in 00:00:01.4510
+    Last step completed in 00:00:01.2270
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0899
+    Last step completed in 00:00:00.0960
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 7/11/2018 10:27:54 AM.  Total time: 00:00:21.8059
+Build completed successfully at 7/12/2018 1:31:27 PM.  Total time: 00:00:27.7192
 
 </buildStep>
 </shfbBuild>

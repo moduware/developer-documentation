@@ -45,7 +45,7 @@
 				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Nexpaq_ProductIdEventArgs.htm">ProductIdEventArgs</a></td><td><div class="summary">
             Arguments related to product id.
             </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection">
-            Usage of <span class="nolink">ModuleDriver</span><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">{
+            Usage of <span class="nolink">ModuleDriver</span><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAACBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAACBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAACBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">{
     <span class="highlight-literal">"type"</span>: <span class="highlight-literal">"string type of your module"</span>, <span class="highlight-comment">// example: moduware.module.led</span>
     <span class="highlight-literal">"version"</span>: <span class="highlight-literal">"version of your module driver"</span>, <span class="highlight-comment">// example: 1.1.1</span>
     <span class="highlight-literal">"commands"</span>: [ <span class="highlight-comment">// Commands we can send to module an object of ModuleDriverCommand</span>
@@ -56,7 +56,30 @@
         ...,
         ...
         ]
-}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID3RBSection" class="collapsibleSection">
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAACBA");</script></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID3RBSection" class="collapsibleSection">
+            Usage of <span class="nolink">ModuleDriverCommand</span><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">{
+    <span class="highlight-literal">"name"</span>: <span class="highlight-literal">"string name of command"</span>, <span class="highlight-comment">// example: SetRGB</span>
+    <span class="highlight-literal">"title"</span>: <span class="highlight-literal">"string title of command (human readable)"</span>, <span class="highlight-comment">//example: Set color in RGB</span>
+    <span class="highlight-literal">"description"</span>: <span class="highlight-literal">"human readable desciption for command"</span>,
+    <span class="highlight-literal">"arguments"</span>: [
+        {
+          <span class="highlight-literal">"name"</span>: <span class="highlight-literal">"string argument name"</span>, <span class="highlight-comment">// argument name</span>
+          <span class="highlight-literal">"validation"</span>: <span class="highlight-literal">"string validation rule"</span> <span class="highlight-comment">// validation rule</span>
+        },
+        {...},
+        {...}
+    ],
+    <span class="highlight-literal">"command"</span>: <span class="highlight-literal">"string command id"</span> <span class="highlight-comment">// example: 2700,</span>
+    <span class="highlight-literal">"data"</span> : [
+        {
+            <span class="highlight-literal">"defaultValue"</span>: <span class="highlight-keyword">int</span> <span class="highlight-comment">// example: 3</span>
+            <span class="highlight-literal">"convert"</span>: <span class="highlight-keyword">bool</span> <span class="highlight-comment">// example true if convert is allowed,</span>
+            <span class="highlight-literal">"format"</span>: <span class="highlight-literal">"string convert format"</span> <span class="highlight-comment">// example: ({1} &gt;&gt; 8)</span>
+        },
+        {...},
+        {...}
+    ]
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID4RBSection" class="collapsibleSection">
             Usage of <span class="nolink">ModuleDriverDataItem</span><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">{
     <span class="highlight-literal">"name"</span>: <span class="highlight-literal">"name of data item"</span>, <span class="highlight-comment">// example: moduware.module.led</span>
     <span class="highlight-literal">"title"</span>: <span class="highlight-literal">"..."</span>, <span class="highlight-comment">// example: 1.1.1</span>
