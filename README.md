@@ -59,3 +59,8 @@ Under this list, examples include firmware, module driver and tile code as well 
 * [LCD via I2C](https://github.com/nexpaq/example-lcd)
 * [SHT20 via I2C](https://github.com/nexpaq/example-i2c)
 * [HC-SR04 Ultrasonic Sensor](https://github.com/nexpaq/example-ultrasonic)
+
+## Other links
+* [Legacy nexpaq documentation (not supported, unmaintained)](https://moduware.github.io/developer-documentation/old-nexpaq/)
+
+
