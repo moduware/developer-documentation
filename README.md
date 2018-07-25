@@ -42,7 +42,7 @@ There are two types of tiles: webview and native. Webview tiles are suitable for
 ### WebView
 Webview tiles is a simple one page local website. It is important to remember that is has access only to local resources, so if you are using some web-fonts, they won't be available for offline users.
 * [webview tile template](https://github.com/nexpaq/webview-tile-template)
-* [Install webview tile](https://github.com/nexpaq/webview-tile-template/blob/master/Install%20webview%20tile.md)
+* [Install webview tile](https://github.com/moduware/webview-tile-boilerplate/blob/master/WEBVIEW-TILE-INSTALL-INSTRUCTIONS.md)
 * [Moduware tiles](https://github.com/search?q=topic%3Atile+org%3Amoduware&type=Repositories)
 
 ### Native
