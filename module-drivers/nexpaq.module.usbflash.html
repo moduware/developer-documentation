@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>nexpaq.module.speaker Driver</title>
+    <title>nexpaq.module.usbflash Driver</title>
 
     <style>
       .highlight table td { padding: 5px; }
@@ -219,19 +219,19 @@
         <ul class="search-results"></ul>
       <div id="toc" class="toc-list-h1">
           <li>
-            <a href="#driver-nexpaq-module-speaker" class="toc-h1 toc-link" data-title="driver-nexpaq-module-speaker">Driver: nexpaq.module.speaker</a>
+            <a href="#driver-nexpaq-module-usbflash" class="toc-h1 toc-link" data-title="driver-nexpaq-module-usbflash">Driver: nexpaq.module.usbflash</a>
           </li>
           <li>
             <a href="#commands" class="toc-h1 toc-link" data-title="commands">Commands</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#checks-the-status-of-speaker-module" class="toc-h2 toc-link" data-title="checks-the-status-of-speaker-module">Checks the status of Speaker module</a>
+                    <a href="#checks-the-status-of-usb-flash-module" class="toc-h2 toc-link" data-title="checks-the-status-of-usb-flash-module">Checks the status of USB flash module</a>
                   </li>
                   <li>
-                    <a href="#connects-to-the-speaker-module" class="toc-h2 toc-link" data-title="connects-to-the-speaker-module">Connects to the Speaker module.</a>
+                    <a href="#connects-to-the-usb-flash" class="toc-h2 toc-link" data-title="connects-to-the-usb-flash">Connects to the USB flash</a>
                   </li>
                   <li>
-                    <a href="#disconnects-from-the-speaker-module" class="toc-h2 toc-link" data-title="disconnects-from-the-speaker-module">Disconnects from the Speaker module.</a>
+                    <a href="#disconnects-from-the-usb-flash" class="toc-h2 toc-link" data-title="disconnects-from-the-usb-flash">Disconnects from the USB flash</a>
                   </li>
               </ul>
           </li>
@@ -239,10 +239,10 @@
             <a href="#data" class="toc-h1 toc-link" data-title="data">Data</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#state-change-response" class="toc-h2 toc-link" data-title="state-change-response">State Change Response</a>
+                    <a href="#state-change-reponse" class="toc-h2 toc-link" data-title="state-change-reponse">State Change Reponse</a>
                   </li>
                   <li>
-                    <a href="#status-request-response" class="toc-h2 toc-link" data-title="status-request-response">Status Request Response</a>
+                    <a href="#status-request-reponse" class="toc-h2 toc-link" data-title="status-request-reponse">Status Request Reponse</a>
                   </li>
               </ul>
           </li>
@@ -254,11 +254,11 @@
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
-        <h1 id='driver-nexpaq-module-speaker'>Driver: nexpaq.module.speaker</h1>
-<p><strong>Type</strong>: nexpaq.module.speaker</p>
+        <h1 id='driver-nexpaq-module-usbflash'>Driver: nexpaq.module.usbflash</h1>
+<p><strong>Type</strong>: nexpaq.module.usbflash</p>
 
-<p><strong>Version</strong>: 1.0.0</p>
-<h1 id='commands'>Commands</h1><h2 id='checks-the-status-of-speaker-module'>Checks the status of Speaker module</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'StatusCheck'</span><span class="p">,</span> <span class="p">[]);</span>
+<p><strong>Version</strong>: 1.0.2</p>
+<h1 id='commands'>Commands</h1><h2 id='checks-the-status-of-usb-flash-module'>Checks the status of USB flash module</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'StatusCheck'</span><span class="p">,</span> <span class="p">[]);</span>
 </code></pre>
 <table><thead>
 <tr>
@@ -272,8 +272,8 @@
 </tr>
 </tbody></table>
 
-<p>To work with Speaker module, Speaker module must be plugged in.</p>
-<h2 id='connects-to-the-speaker-module'>Connects to the Speaker module.</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'Connect'</span><span class="p">,</span> <span class="p">[]);</span>
+<p>To work with USB flash module and read data, USB flash module must be plugged in.</p>
+<h2 id='connects-to-the-usb-flash'>Connects to the USB flash</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'Connect'</span><span class="p">,</span> <span class="p">[]);</span>
 </code></pre>
 <table><thead>
 <tr>
@@ -287,8 +287,8 @@
 </tr>
 </tbody></table>
 
-<p>Connects to the Speaker that is plugged in.</p>
-<h2 id='disconnects-from-the-speaker-module'>Disconnects from the Speaker module.</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'Disconnect'</span><span class="p">,</span> <span class="p">[]);</span>
+<p>Connects to the USB flash that is plugged in.</p>
+<h2 id='disconnects-from-the-usb-flash'>Disconnects from the USB flash</h2><pre class="highlight javascript tab-javascript"><code><span class="nx">Moduware</span><span class="p">.</span><span class="nx">v0</span><span class="p">.</span><span class="nx">API</span><span class="p">.</span><span class="nx">Module</span><span class="p">.</span><span class="nx">SendCommand</span><span class="p">(</span><span class="nx">Moduware</span><span class="p">.</span><span class="nx">Arguments</span><span class="p">.</span><span class="nx">uuid</span><span class="p">,</span> <span class="s1">'Disconnect'</span><span class="p">,</span> <span class="p">[]);</span>
 </code></pre>
 <table><thead>
 <tr>
@@ -302,7 +302,7 @@
 </tr>
 </tbody></table>
 
-<p>Disconnects from Speaker that is plugged in.</p>
+<p>Disconnects from USB flash that is plugged in.</p>
 <h1 id='data'>Data</h1>
 <aside class="warning">If you want to work with received data you need to listen for <code>DataReceived</code> event after Api is ready</aside>
 
@@ -318,7 +318,7 @@
 
   <span class="p">});</span>
 <span class="p">});</span>
-</code></pre><h2 id='state-change-response'>State Change Response</h2><pre class="highlight javascript tab-javascript"><code><span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">dataSource</span> <span class="o">==</span> <span class="s1">'StateChangeResponse'</span><span class="p">)</span> <span class="p">{</span>
+</code></pre><h2 id='state-change-reponse'>State Change Reponse</h2><pre class="highlight javascript tab-javascript"><code><span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">dataSource</span> <span class="o">==</span> <span class="s1">'StateChangeResponse'</span><span class="p">)</span> <span class="p">{</span>
   <span class="c1">// ... work with data variables here ...</span>
 <span class="p">}</span>
 </code></pre>
@@ -359,7 +359,7 @@
 <td>success / failure</td>
 </tr>
 </tbody></table>
-<h2 id='status-request-response'>Status Request Response</h2><pre class="highlight javascript tab-javascript"><code><span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">dataSource</span> <span class="o">==</span> <span class="s1">'StatusRequestResponse'</span><span class="p">)</span> <span class="p">{</span>
+<h2 id='status-request-reponse'>Status Request Reponse</h2><pre class="highlight javascript tab-javascript"><code><span class="k">if</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">dataSource</span> <span class="o">==</span> <span class="s1">'StatusRequestResponse'</span><span class="p">)</span> <span class="p">{</span>
   <span class="c1">// ... work with data variables here ...</span>
 <span class="p">}</span>
 </code></pre>
